@@ -114,9 +114,9 @@
 8	=hoːb	_	SCONJ	CONJ	_	11	dep	_	AlignBegin=20209|AlignEnd=20283|Gloss==when|RX==[CONJ]|TokenType=Clit
 9	/	_	PUNCT	_	_	8	punct	_	AlignBegin=20283|AlignEnd=20580|Gloss=/|TokenType=Break
 10	beːti	_	ADP	POSTP	_	11	dep	_	AlignBegin=20580|AlignEnd=20964|Gloss=towards|RX=[POSTP]|TokenType=Root
-11	tartiːt	_	NOUN	V1	_	13	nmod	_	AlignBegin=20964|AlignEnd=21348|Gloss=turn_aside|MGloss=turn_aside-CVB.SEQ|MSeg=tar-tiːt|RX=[V1].[DER]|TokenType=Root
+11	tartiːt	_	VERB	V1	VerbClass=1	13	advcl	_	AlignBegin=20964|AlignEnd=21348|Gloss=turn_aside|MGloss=turn_aside-CVB.SEQ|MSeg=tar-tiːt|RX=[V1].[DER]|TokenType=Root
 12	/	_	PUNCT	_	_	11	punct	_	AlignBegin=21348|AlignEnd=21732|Gloss=/|TokenType=Break
-13	sakanaja	_	NOUN	V2	_	18	dep:conj	_	AlignBegin=21732|AlignEnd=22262|Gloss=ask_for_news|MGloss=ask_for_news-CVB.MNR|MSeg=sakana-ja|RX=[V2]|TokenType=Root
+13	sakanaja	_	VERB	V2	VerbClass=2	18	dep:conj	_	AlignBegin=21732|AlignEnd=22262|Gloss=ask_for_news|MGloss=ask_for_news-CVB.MNR|MSeg=sakana-ja|RX=[V2]|TokenType=Root
 14	/	_	PUNCT	_	_	13	punct	_	AlignBegin=22262|AlignEnd=22793|Gloss=/|TokenType=Break
 15	ani	_	AUX	V1	Aspect=Perf|Number=Sing|VerbClass=1	13	aux	_	AlignBegin=22793|AlignEnd=22963|Gloss=say\PFV|MGloss=1SG-say\PFV|MSeg=a-ni|RX=[PNG]-[AUX].[VOL]|TokenType=Root
 16	=t	_	CCONJ	CONJ	_	13	cc	_	AlignBegin=22963|AlignEnd=23049|Gloss==COORD|RX==[CONJ]|TokenType=Clit
@@ -239,12 +239,12 @@
 8	aa#	_	X	FS	_	11	dep:conj	_	AlignBegin=44323|AlignEnd=44566|Gloss=FS|RX=[FS]|TokenType=Unfinished
 9	heːlaj	_	NOUN	N	Gender=Masc	8	reparandum	_	AlignBegin=44566|AlignEnd=44809|Gloss=hare|RX=[N].[M]|TokenType=Root
 10	/	_	PUNCT	_	_	8	punct	_	AlignBegin=44809|AlignEnd=45053|Gloss=/|TokenType=Break
-11	heːlaj	_	NOUN	N	Gender=Masc	16	vocative	_	AlignBegin=45053|AlignEnd=45263|Gloss=hare|RX=[N].[M]|TokenType=Root
+11	heːlaj	_	NOUN	N	Gender=Masc	13	vocative	_	AlignBegin=45053|AlignEnd=45263|Gloss=hare|RX=[N].[M]|TokenType=Root
 12	/	_	PUNCT	_	_	11	punct	_	AlignBegin=45263|AlignEnd=45473|Gloss=/|TokenType=Break
-13	naː	_	NOUN	N	Gender=Fem	16	xcomp	_	AlignBegin=45473|AlignEnd=45595|Gloss=thing|RX=[N].[F]|TokenType=Root
+13	naː	_	NOUN	N	Gender=Fem	17	ccomp	_	AlignBegin=45473|AlignEnd=45595|Gloss=thing|RX=[N].[F]|TokenType=Root
 14	=t	_	DET	DET	Gender=Fem	13	det	_	AlignBegin=45595|AlignEnd=45717|Gloss==INDF.F|RX==[DET]|TokenType=Clit
-15	ki=	_	PART	PTCL	Aspect=Imp|Polarity=Neg	16	advmod	_	AlignBegin=45717|AlignEnd=45798|Gloss=NEG.IPFV=|RX=[PTCL]=|TokenType=Clit
-16	tki	_	VERB	V1	Aspect=Perf|Gender=Fem|Number=Sing|VerbClass=1	17	ccomp	_	AlignBegin=45798|AlignEnd=45961|Gloss=become\PFV|MGloss=3SG.F-become\PFV|MSeg=t-ki|Reported=Yes|RX=[PNG]-[V1].[IRG]|TokenType=Root
+15	ki=	_	PART	PTCL	Aspect=Imp|Polarity=Neg	13	advmod	_	AlignBegin=45717|AlignEnd=45798|Gloss=NEG.IPFV=|RX=[PTCL]=|TokenType=Clit
+16	tki	_	AUX	V1	Aspect=Perf|Gender=Fem|Number=Sing|VerbClass=1	13	cop	_	AlignBegin=45798|AlignEnd=45961|Gloss=become\PFV|MGloss=3SG.F-become\PFV|MSeg=t-ki|Reported=Yes|RX=[PNG]-[V1].[IRG]|TokenType=Root
 17	ani	_	VERB	V1	Aspect=Perf|Number=Sing|VerbClass=1	26	dep:conj	_	AlignBegin=45961|AlignEnd=46123|Gloss=say\PFV|MGloss=1SG-say\PFV|MSeg=a-ni|RX=[PNG]-[V1].[IRG]|TokenType=Root
 18	=t	_	CCONJ	CONJ	_	17	cc	_	AlignBegin=46123|AlignEnd=46205|Gloss==COORD|RX==[CONJ]|TokenType=Clit
 19	/	_	PUNCT	_	_	17	punct	_	AlignBegin=46205|AlignEnd=46450|Gloss=/|TokenType=Break
@@ -254,7 +254,7 @@
 23	jhaksan	_	VERB	V2	Number=Sing|VerbClass=2	26	dep:conj	_	AlignBegin=46818|AlignEnd=47094|Gloss=get_up|MGloss=get_up-CAUS-PFV.1SG|MSeg=jhak-s-an|RX=[V2]-[V2].[DER]-[TAM].[PNG]|TokenType=Root
 24	=t	_	CCONJ	CONJ	_	23	cc	_	AlignBegin=47094|AlignEnd=47186|Gloss==COORD|RX==[CONJ]|TokenType=Clit
 25	/	_	PUNCT	_	_	23	punct	_	AlignBegin=47186|AlignEnd=47553|Gloss=/|TokenType=Break
-26	harid	_	VERB	V1	Aspect=Perf|VerbClass=1	27	ccomp	_	AlignBegin=47553|AlignEnd=47761|Gloss=slaughter/PFV.1SG|Reported=Yes|RX=[V1]|TokenType=Root
+26	harid	_	VERB	V1	Aspect=Perf|VerbClass=1	27	ccomp	_	AlignBegin=47553|AlignEnd=47761|Gloss=slaughter\PFV.1SG|Reported=Yes|RX=[V1]|TokenType=Root
 27	ini	_	VERB	V1	Aspect=Perf|Gender=Masc|Number=Sing|VerbClass=1	0	root	_	AlignBegin=47761|AlignEnd=47969|Gloss=say\PFV|MGloss=3SG.M-say\PFV|MSeg=i-ni|RX=[PNG]-[V1].[IRG]|TokenType=Root
 28	//	_	PUNCT	_	_	27	punct	_	AlignBegin=47969|AlignEnd=48178|Gloss=//|TokenType=Break
 
@@ -344,23 +344,22 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ_MV_NARR_10_RABBIT.WAV
 # sent_timecode = 57666, 60722
 # phonetic_text = areː kaːm =oːn rhi -ta a- ni =hoːb / kaːm =oːk rh -aː =b ka= a- ki i- ni //
-# text = areː kaːm =oːn rhita ani =hoːb / kaːm =oːk rhaː =b ka= aki ini //
+# text = areː kaːm =oːn rhita ani =hoːb / kaːm =oːk rhaːb ka= aki ini //
 # text_en = Then, when I said: "Did you see our camel?" he said: "I did not see your camel".
 1	areː	_	CCONJ	PTCL	_	2	cc	_	AlignBegin=57666|AlignEnd=57953|Gloss=then|RX=[PTCL]|TokenType=Root
 2	kaːm	_	NOUN	N	_	4	obj	_	AlignBegin=57953|AlignEnd=58097|Gloss=camel|RX=[N]|TokenType=Root
 3	=oːn	_	PRON	PRO	Case=Acc|Number=Plur|Person=1|Polite=Form|Poss=Yes	2	nmod:poss	_	AlignBegin=58097|AlignEnd=58240|Gloss==POSS.1PL.ACC|RX==[PRO].[POL]|TokenType=Clit
 4	rhita	_	VERB	V2	Gender=Masc|Number=Sing|VerbClass=2	5	ccomp	_	AlignBegin=58240|AlignEnd=58527|Gloss=see|MGloss=see-PFV.2SG.M|MSeg=rhi-ta|Reported=Yes|RX=[V2]-[TAM].[PNG]|TokenType=Root
 5	ani	_	VERB	V1	Aspect=Perf|Number=Sing|VerbClass=1	6	dep:comp	_	AlignBegin=58527|AlignEnd=58719|Gloss=say\PFV|MGloss=1SG-say\PFV|MSeg=a-ni|RX=[PNG]-[V1].[IRG]|TokenType=Root
-6	=hoːb	_	SCONJ	CONJ	_	14	dep	_	AlignBegin=58719|AlignEnd=58814|Gloss==when|RX==[CONJ]|TokenType=Clit
+6	=hoːb	_	SCONJ	CONJ	_	13	dep	_	AlignBegin=58719|AlignEnd=58814|Gloss==when|RX==[CONJ]|TokenType=Clit
 7	/	_	PUNCT	_	_	6	punct	_	AlignBegin=58814|AlignEnd=59102|Gloss=/|TokenType=Break
 8	kaːm	_	NOUN	N	_	10	obj	_	AlignBegin=59102|AlignEnd=59230|Gloss=camel|RX=[N]|TokenType=Root
 9	=oːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2|Poss=Yes	8	nmod:poss	_	AlignBegin=59230|AlignEnd=59359|Gloss==POSS.2SG.ACC|RX==[PRO]|TokenType=Clit
-10	rhaː	_	NOUN	V2	_	14	ccomp	_	AlignBegin=59359|AlignEnd=59531|Gloss=see|MGloss=see-CVB.MNR|MSeg=rh-aː|RX=[V2]|TokenType=Root
-11	=b	_	DET	DET	Case=Acc|Gender=Masc	10	det	_	AlignBegin=59531|AlignEnd=59616|Gloss==INDF.M.ACC|RX==[DET]|TokenType=Clit
-12	ka=	_	PART	PTCL	Aspect=Imp|Polarity=Neg	10	advmod	_	AlignBegin=59616|AlignEnd=59702|Gloss=NEG.IPFV=|RX=[PTCL]=|TokenType=Clit
-13	aki	_	AUX	AUX	Aspect=Perf|Number=Sing	10	aux	_	AlignBegin=59702|AlignEnd=59873|Gloss=become\PFV|MGloss=1SG-become\PFV|MSeg=a-ki|Reported=Yes|RX=[PNG]-[AUX].[NEG]|TokenType=Root
-14	ini	_	VERB	V1	Aspect=Perf|Gender=Masc|Number=Sing|VerbClass=1	0	root	_	AlignBegin=59873|AlignEnd=60130|Gloss=say\PFV|MGloss=3SG.M-say\PFV|MSeg=i-ni|RX=[PNG]-[V1].[IRG]|TokenType=Root
-15	//	_	PUNCT	_	_	14	punct	_	AlignBegin=60130|AlignEnd=60388|Gloss=//|TokenType=Break
+10	rhaːb	_	VERB	V2	Gender=Masc|VerbClass=2	13	ccomp	_	AlignBegin=59359|AlignEnd=59616|Gloss=see|MGloss=see-CVB.MNR=INDF.M.ACC|MSeg=rh-aː-b|RX=[V2]=[DET]|TokenType=Root
+11	ka=	_	PART	PTCL	Aspect=Imp|Polarity=Neg	10	advmod	_	AlignBegin=59616|AlignEnd=59702|Gloss=NEG.IPFV=|RX=[PTCL]=|TokenType=Clit
+12	aki	_	AUX	AUX	Aspect=Perf|Number=Sing	10	aux	_	AlignBegin=59702|AlignEnd=59873|Gloss=become\PFV|MGloss=1SG-become\PFV|MSeg=a-ki|Reported=Yes|RX=[PNG]-[AUX].[NEG]|TokenType=Root
+13	ini	_	VERB	V1	Aspect=Perf|Gender=Masc|Number=Sing|VerbClass=1	0	root	_	AlignBegin=59873|AlignEnd=60130|Gloss=say\PFV|MGloss=3SG.M-say\PFV|MSeg=i-ni|RX=[PNG]-[V1].[IRG]|TokenType=Root
+14	//	_	PUNCT	_	_	13	punct	_	AlignBegin=60130|AlignEnd=60388|Gloss=//|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_10_rabbit_69-69
 # speaker_id = SP
