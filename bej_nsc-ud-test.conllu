@@ -9751,7 +9751,7 @@
 10	//	_	PUNCT	PUNCT	_	8	punct	_	AlignBegin=106007|AlignEnd=106806|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_12_witch_126-135
-# text = ottʔa / ʔoːtanaː =t =i ʔati // ʔoːtanaː =t =i ʔati eːn =eːk / aː= nda i= gʷibi =ji bʔaɖaɖa =ji isaːnn =hoːk // tuː= tiji t= asarama girma =i tisaːn =hoːk / uː= kʷhaːn i= ba= ahassaj =uːk / isaːn =hoːk -a tidi eːn //
+# text = ottʔa / ʔoːtanaː =t =i ʔati // ʔoːtanaː =t =i ʔati eːn =eːk / aː= nda i= gʷibi =ji bʔaɖaɖa =ji isaːnn =hoːk // tuː= tiji t= asarama girma =i tisaːn =hoːk / uː= kʷhaːn i= ba= ahassaj =uːk / isaːn =hoːka tidi eːn //
 # phonetic_text = ottʔa / ʔoːtanaːti ʔati // oːtanaːti ʔati eːneːk / aːnda igʷbiji bʔaɖɖaːji isaːnnhoːk // tuːtji tʔasarama girmaj tisaːnhoːk / uːkʷhaːn ibaːhassajuːk / isaːnhoːka tidi eːn //
 # text_en = So, when they said: "Curser, curse! Curser, curse!"  "May you find men with shields and swords!  May you find the seven headed snake!  May you find a flooding river that prevents you from crossing!", she said, they said.
 1	ottʔa	_	PART	PTCL	_	3	discourse	_	AlignBegin=106806|AlignEnd=107004|Gloss=now|RX=[PTCL]|TokenType=Root
@@ -9766,7 +9766,7 @@
 10	=i	_	ADP	CASE	Case=Voc	11	vocative	_	AlignBegin=108383|AlignEnd=108450|Gloss==VOC|RX==[CASE]|TokenType=Clit
 11	ʔati	_	VERB	V1	Gender=Fem|Number=Sing|VerbClass=1	12	ccomp	_	AlignBegin=108450|AlignEnd=108719|Gloss=curse|MGloss=curse-IMP.SG.F|MSeg=ʔat-i|Reported=Yes|RX=[V1]-[TAM].[PNG]|TokenType=Root
 12	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	13	dep:comp	_	AlignBegin=108719|AlignEnd=108853|Gloss=say\PFV.3PL|RX=[V1].[IRG]|TokenType=Root
-13	=eːk	_	SCONJ	CONJ	_	44	dep	_	AlignBegin=108853|AlignEnd=108987|Gloss==if|RX==[CONJ]|TokenType=Clit
+13	=eːk	_	SCONJ	CONJ	_	43	dep	_	AlignBegin=108853|AlignEnd=108987|Gloss==if|RX==[CONJ]|TokenType=Clit
 14	/	_	PUNCT	PUNCT	_	13	punct	_	AlignBegin=108987|AlignEnd=109256|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 15	aː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	16	det	_	AlignBegin=109256|AlignEnd=109411|Gloss=DEF.PL.M.NOM=|RX=[DET]=|TokenType=Clit
 16	nda	_	NOUN	N	Gender=Masc|Number=Plur	22	nsubj	_	AlignBegin=109411|AlignEnd=109566|Gloss=man\PL|RX=[SBJ].[N].[M]|TokenType=Root
@@ -9794,12 +9794,11 @@
 38	ahassaj	_	VERB	V2	Number=Sing|VerbClass=2	35	acl:relcl	_	AlignBegin=113907|AlignEnd=114099|Gloss=pass|MGloss=1SG-pass-OPT|MSeg=a-hass-aj|RX=[PNG]-[V2]-[TAM]|TokenType=Root
 39	=uːk	_	PRON	PRO	Case=Nom|Number=Sing|Person=2|Poss=Yes	38	obj	_	AlignBegin=114099|AlignEnd=114163|Gloss==POSS.2SG.NOM|RX==[PRO]|TokenType=Clit
 40	/	_	PUNCT	PUNCT	_	35	punct	_	AlignBegin=114163|AlignEnd=114547|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
-41	isaːn	_	VERB	V1	Aspect=Aor|Gender=Masc|Number=Sing|VerbClass=1	44	ccomp	_	AlignBegin=114547|AlignEnd=114681|Gloss=wait\AOR|MGloss=3SG.M-wait\AOR|MSeg=i-saːn|Reported=Yes|RX=[PNG]-[V1]|TokenType=Root
-42	=hoːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2	41	obj	_	AlignBegin=114681|AlignEnd=114748|Gloss==OBJ.2SG|RX==[PRO]|TokenType=Clit
-43	-a	_	DET	_	Gender=Masc	42	det/m	_	AlignBegin=114748|AlignEnd=114815|Gloss=-ADRE.M|RX=-.|TokenType=InflAff
-44	tidi	_	VERB	V1	Aspect=Perf|Gender=Fem|Number=Sing|VerbClass=1	0	root	_	AlignBegin=114815|AlignEnd=115084|Gloss=say\PFV|MGloss=3SG.F-say\PFV|MSeg=ti-di|RX=[PNG]-[V1].[IRG]|TokenType=Root
-45	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	44	discourse	_	AlignBegin=115084|AlignEnd=115352|Gloss=say\PFV.3PL|RX=[V1].[IRG]|TokenType=Root
-46	//	_	PUNCT	PUNCT	_	44	punct	_	AlignBegin=115352|AlignEnd=116165|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
+41	isaːn	_	VERB	V1	Aspect=Aor|Gender=Masc|Number=Sing|VerbClass=1	43	ccomp	_	AlignBegin=114547|AlignEnd=114681|Gloss=wait\AOR|MGloss=3SG.M-wait\AOR|MSeg=i-saːn|Reported=Yes|RX=[PNG]-[V1]|TokenType=Root
+42	=hoːka	_	PRON	PRO	Case=Acc|Gender=Masc|Number=Sing|Person=2	41	obj	_	AlignBegin=114681|AlignEnd=114815|Gloss==OBJ.2SG|RX==[PRO]-.|TokenType=Clit
+43	tidi	_	VERB	V1	Aspect=Perf|Gender=Fem|Number=Sing|VerbClass=1	0	root	_	AlignBegin=114815|AlignEnd=115084|Gloss=say\PFV|MGloss=3SG.F-say\PFV|MSeg=ti-di|RX=[PNG]-[V1].[IRG]|TokenType=Root
+44	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	43	discourse	_	AlignBegin=115084|AlignEnd=115352|Gloss=say\PFV.3PL|RX=[V1].[IRG]|TokenType=Root
+45	//	_	PUNCT	PUNCT	_	43	punct	_	AlignBegin=115352|AlignEnd=116165|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_12_witch_136-140
 # text = t= hataːj aː= nda / i= gʷibi =ji bʔaɖaɖ =i iseːn =hoːb hammad hammad / baroːk w= ʔabuːk =oːk aneːb teː= far tidi =t /
