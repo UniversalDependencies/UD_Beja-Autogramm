@@ -242,8 +242,8 @@
 1	ʃaːwi	_	PART	PTCL	_	6	discourse	_	AlignBegin=49768|AlignEnd=49958|Gloss=then|RX=[PTCL]|TokenType=Root
 2	=ka	_	ADP	POSTP	_	1	dep	_	AlignBegin=49958|AlignEnd=50149|Gloss==DISTR|RX==[POSTP]|TokenType=Clit
 3	oːnaːj	_	DET	DEM	Case=Gen|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	1	det	_	AlignBegin=50149|AlignEnd=50339|Gloss=PROX.SG.M.GEN|RX=[DEM]|TokenType=Root
-4	=ka	_	ADP	POSTP	_	3	dep	_	AlignBegin=50339|AlignEnd=50530|Gloss==DISTR|RX==[POSTP]|TokenType=Clit
-5	/	_	PUNCT	_	_	3	punct	_	AlignBegin=50530|AlignEnd=50910|Gloss=/|TokenType=Break
+4	=ka	_	ADP	POSTP	_	1	dep	_	AlignBegin=50339|AlignEnd=50530|Gloss==DISTR|RX==[POSTP]|TokenType=Clit
+5	/	_	PUNCT	_	_	1	punct	_	AlignBegin=50530|AlignEnd=50910|Gloss=/|TokenType=Break
 6	sikʷtiːt	_	VERB	V1	VerbClass=1	11	advcl	_	AlignBegin=50910|AlignEnd=51130|Gloss=pull|MGloss=pull-CVB.SEQ|MSeg=sikʷ-tiːt|RX=[V1]|TokenType=Root
 7	=ka	_	ADP	POSTP	_	6	dep	_	AlignBegin=51130|AlignEnd=51239|Gloss==DISTR|RX==[POSTP]|TokenType=Clit
 8	w=	_	DET	DET	Definite=Def|Gender=Masc|Number=Sing	9	det	_	AlignBegin=51239|AlignEnd=51403|Gloss=DEF.SG.M=|RX=[DET]=|TokenType=Clit

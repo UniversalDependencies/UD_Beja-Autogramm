@@ -294,7 +294,7 @@
 5	=i	_	PRON	PRO	Case=Acc|Number=Sing|Person=1|Poss=Yes	3	nmod:poss	_	AlignBegin=60191|AlignEnd=60317|Gloss==POSS.1SG.NOM|RX==[PRO]|TokenType=Clit
 6	baːɖinaːt	_	VERB	N	Gender=Fem	14	dep:conj	_	AlignBegin=60317|AlignEnd=60506|Gloss=forget\INT|MGloss=forget\INT-CVB.MNR=INDF.F|MSeg=baːɖin-aː-t|RX=[V1].[DER]-[PRF]=[DET]|TokenType=Root
 7	=oː	_	PRON	PRO	Number=Sing|Person=1	6	obj	_	AlignBegin=60506|AlignEnd=60569|Gloss==POSS.1SG.ACC|RX==[PRO]|TokenType=Clit
-8	-t	_	PRON	DET	Definite=Ind|Gender=Fem	6	nsubj/m	_	AlignBegin=60569|AlignEnd=60632|Gloss==INDF.F|MGloss==INDF.F|MSeg=-t|RX==[DET]|TokenType=InflAff|wordform==t
+8	-t	_	PRON	DET	Definite=Ind|Gender=Fem	6	dep	_	AlignBegin=60569|AlignEnd=60632|Gloss==INDF.F|MGloss==INDF.F|MSeg=-t|RX==[DET]|TokenType=InflAff|wordform==t
 9	=u	_	AUX	N,COP	Number=Sing|Person=3|VerbType=Cop	6	cop	_	AlignBegin=60632|AlignEnd=60693|Gloss==COP.3SG|RX==[PRED].[N]|TokenType=Clit
 10	/	_	PUNCT	PUNCT	_	6	punct	_	AlignBegin=60693|AlignEnd=61069|Gloss=/|TokenType=Break
 11	naː	_	NOUN	CONJ	_	14	obj	_	AlignBegin=61069|AlignEnd=61196|Gloss=thing|RX=[N].[F]|TokenType=Root

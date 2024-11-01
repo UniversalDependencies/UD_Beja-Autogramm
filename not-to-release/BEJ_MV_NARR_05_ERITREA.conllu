@@ -1412,7 +1412,7 @@
 15	//	_	PUNCT	_	_	14	punct	_	AlignBegin=254188|AlignEnd=254477|Gloss=//|TokenType=Break
 16	ruːga	_	VERB	V2	VerbClass=2	19	ccomp	_	AlignBegin=254477|AlignEnd=254629|Gloss=be_calm|MGloss=be_calm-CVB.MNR|MSeg=ruːg-a|RX=[V2]|TokenType=Root
 17	=ka	_	ADP	POSTP	Degree=Cmp	16	dep	_	AlignBegin=254629|AlignEnd=254705|Gloss==CMPR|RX==[POSTP]|TokenType=Clit
-18	-t	_	PRON	DET	Gender=Fem	16	nsubj/m	_	AlignBegin=254705|AlignEnd=254781|Gloss==INDF.F|MGloss==INDF.F|MSeg=-t|RX==[DET]|TokenType=InflAff|wordform==t
+18	-t	_	PRON	DET	Gender=Fem	16	dep	_	AlignBegin=254705|AlignEnd=254781|Gloss==INDF.F|MGloss==INDF.F|MSeg=-t|RX==[DET]|TokenType=InflAff|wordform==t
 19	tiki	_	VERB	V1	Aspect=Perf|Gender=Fem|Number=Sing|VerbClass=1	0	root	_	AlignBegin=254781|AlignEnd=255085|Gloss=be\PFV|MGloss=3SG.F-be\PFV|MSeg=ti-ki|RX=[PNG]-[V1].[IRG]|TokenType=Root
 20	{noise}	_	X	_	_	19	discourse	_	AlignBegin=255085|AlignEnd=255389|TokenType=Break
 21	//	_	PUNCT	_	_	19	punct	_	AlignBegin=255389|AlignEnd=255691|Gloss=//|TokenType=Break

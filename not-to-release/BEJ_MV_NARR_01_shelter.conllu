@@ -590,7 +590,7 @@
 2	haːj	_	ADP	POSTP	Case=Com	3	dep	_	AlignBegin=133174|AlignEnd=133511|Gloss=COM|RX=[POSTP]|TokenType=Root
 3	jʔaːt	_	VERB	V2,IRG	Gender=Fem|VerbClass=2	0	root	_	AlignBegin=133511|AlignEnd=133679|Gloss=come|MGloss=come-CVB.MNR=INDF.F|MSeg=jʔ-aː-t|RX=[V2].[IRG]-[PRF]=[DET]|TokenType=Root
 4	=oːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2|Poss=Yes	3	obj	_	AlignBegin=133679|AlignEnd=133735|Gloss==POSS.2SG.ACC|RX==[PRO]|TokenType=Clit
-5	-t	_	PRON	DET	Definite=Ind|Gender=Fem	3	nsubj/m	_	AlignBegin=133735|AlignEnd=133791|Gloss==INDF.F|MGloss==INDF.F|MSeg=-t|RX==[DET]|TokenType=InflAff|wordform==t
+5	-t	_	PRON	DET	Definite=Ind|Gender=Fem	3	dep	_	AlignBegin=133735|AlignEnd=133791|Gloss==INDF.F|MGloss==INDF.F|MSeg=-t|RX==[DET]|TokenType=InflAff|wordform==t
 6	=u	_	AUX	N,COP	Number=Sing|Person=3|VerbType=Cop	3	cop	_	AlignBegin=133791|AlignEnd=133848|Gloss==COP.3SG|RX==[PRED].[N]|TokenType=Clit
 7	?	_	PUNCT	PUNCT	_	3	punct	_	AlignBegin=133848|AlignEnd=134339|TokenType=Break
 

@@ -984,7 +984,7 @@
 19	bhar	_	NOUN	N	Gender=Masc	20	obj	_	AlignBegin=224677|AlignEnd=224831|Gloss=sea|RX=[N].[M]|TokenType=Root
 20	ʃuːmsaːt	_	VERB	V2	Gender=Fem|VerbClass=2	24	ccomp	_	AlignBegin=224831|AlignEnd=225007|Gloss=go_in|MGloss=go_in-CAUS-CVB.MNR=INDF.F|MSeg=ʃuːm-s-aː-t|RX=[V2]-[V2].[DER]-[PRF]=[DET]|TokenType=Root
 21	=oːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2|Poss=Yes	20	nmod:poss	_	AlignBegin=225007|AlignEnd=225051|Gloss==POSS.2SG.ACC|RX==[PRO]|TokenType=Clit
-22	-t	_	PRON	DET	Gender=Fem	20	nsubj/m	_	AlignBegin=225051|AlignEnd=225095|Gloss==INDF.F|MGloss==INDF.F|MSeg=-t|RX==[DET]|TokenType=InflAff|wordform==t
+22	-t	_	PRON	DET	Gender=Fem	20	dep	_	AlignBegin=225051|AlignEnd=225095|Gloss==INDF.F|MGloss==INDF.F|MSeg=-t|RX==[DET]|TokenType=InflAff|wordform==t
 23	=i	_	AUX	N.COP	Number=Sing|Person=3|VerbType=Cop	20	cop	_	AlignBegin=225095|AlignEnd=225139|Gloss==COP.3SG|Reported=Yes|RX==[PRED].[N]|TokenType=Clit
 24	indi	_	VERB	V1	Aspect=Imp|Gender=Masc|Number=Sing|VerbClass=1	25	dep:comp	_	AlignBegin=225139|AlignEnd=225345|Gloss=say\IPFV|MGloss=3SG.M-say\IPFV|MSeg=i-ndi|RX=[PNG]-[V1].[IRG]|TokenType=Root
 25	=hoːb	_	SCONJ	CONJ	_	0	root	_	AlignBegin=225345|AlignEnd=225447|Gloss==when|RX==[CONJ]|TokenType=Clit
