@@ -147,7 +147,7 @@
 8	//	_	PUNCT	PUNCT	_	7	punct	_	AlignBegin=33428|AlignEnd=33626|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 9	simaːsiwi	_	VERB	V1	Gender=Fem|Number=Sing|VerbClass=1	13	ccomp	_	AlignBegin=33626|AlignEnd=33965|Gloss=hear\INT|MGloss=CAUS-hear\INT-IMP.SG.F|MSeg=si-maːsiw-i|RX=[V1].[DER]-[V1].[DER]-[TAM].[PNG]|TokenType=Root
 10	=heːb	_	PRON	PRO	Case=Acc|Number=Sing|Person=1	9	obj	_	AlignBegin=33965|AlignEnd=34079|Gloss==OBJ.1SG|RX==[PRO]|TokenType=Clit
-11	hoːk	_	PART	_	Number=Sing|Person=2	9	discourse	_	AlignBegin=34079|AlignEnd=34533|Gloss=2SG.DAT\ABL|RX=[DM]|TokenType=Root
+11	hoːk	_	PRON	_	Number=Sing|Person=2	9	discourse	_	AlignBegin=34079|AlignEnd=34533|Gloss=2SG.DAT/ABL|RX=[DM]|TokenType=Root
 12	/	_	PUNCT	PUNCT	_	9	punct	_	AlignBegin=34533|AlignEnd=34987|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 13	iːd	_	VERB	V1	Aspect=Aor|Gender=Masc|Number=Sing|VerbClass=1	0	root	_	AlignBegin=34987|AlignEnd=35111|Gloss=say\AOR|MGloss=3SG.M-say\AOR|MSeg=iː-d|RX=[PNG]-[V1].[IRG]|TokenType=Root
 14	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	13	discourse	_	AlignBegin=35111|AlignEnd=35235|Gloss=say\PFV.3PL|RX=[V1].[IRG]|TokenType=Root
@@ -299,7 +299,7 @@
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_073-082
 # text = agʷoːj =eːk / tiːd =hoːb // simaːsiwi =heːb iː =hoːk iːd =hoːb // i= nabi =i =t ʃiha akai / tiːd =eːb oː= doːr / miʃi jam imiːfirʔana =t / gʷʔeːti hoːj lʔatiːt tiːtram eːn //
 # phonetic_text = agʷoːjeːk / tiːdhoːb // simaːsiwiheːb iːhoːk iːdhoːb // inabit ʃiha akiː / tiːdeːb oːdoːr / miʃi jam imiːfirʔanaːt / gʷʔeːti hoːj lʔatiːt tiːtram eːn //
-# text_en = When it said: 'I could not do anything',  when he said: 'Let me hear what you said!'  when it said: 'Become the Prophet's waterhole!' only water was going out, and he drunk from it, and it quenched its thirst, and it went away with him, they said.
+# text_en = When it said: 'I could not do anything',  when he said: 'Hey, you! let me hear what you said!'  when it said: 'Become the Prophet's waterhole!' only water was going out, and he drunk from it, and it quenched its thirst, and it went away with him, they said.
 1	agʷoːj	_	VERB	V1	Aspect=Perf|Number=Sing|VerbClass=1	2	dep:comp	_	AlignBegin=66776|AlignEnd=67036|Gloss=be_unable\PFV|MGloss=1SG-be_unable\PFV|MSeg=a-gʷoːj|RX=[PNG]-[V1]|TokenType=Root
 2	=eːk	_	SCONJ	CONJ	_	4	dep:comp	_	AlignBegin=67036|AlignEnd=67166|Gloss==if|Reported=Yes|RX==[CONJ]|TokenType=Clit
 3	/	_	PUNCT	PUNCT	_	2	punct	_	AlignBegin=67166|AlignEnd=67556|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
@@ -308,8 +308,8 @@
 6	//	_	PUNCT	PUNCT	_	5	punct	_	AlignBegin=67727|AlignEnd=67898|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 7	simaːsiwi	_	VERB	V1	Gender=Fem|Number=Sing|VerbClass=1	11	ccomp	_	AlignBegin=67898|AlignEnd=68167|Gloss=hear\INT|MGloss=CAUS-hear\INT-IMP.SG.F|MSeg=si-maːsiw-i|RX=[V1].[DER]-[V1].[DER]-[TAM].[PNG]|TokenType=Root
 8	=heːb	_	PRON	PRO	Case=Acc|Number=Sing|Person=1	7	obj	_	AlignBegin=68167|AlignEnd=68257|Gloss==OBJ.1SG|RX==[PRO]|TokenType=Clit
-9	iː	_	PART	PTCL	_	7	discourse	_	AlignBegin=68257|AlignEnd=68436|Gloss=ADRF|RX=[PTCL]|TokenType=Root
-10	=hoːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2	9	dep	_	AlignBegin=68436|AlignEnd=68616|Gloss==OBJ.2SG|RX==[PRO]|TokenType=Clit
+9	iː	_	PART	PTCL	_	10	advmod	_	AlignBegin=68257|AlignEnd=68436|Gloss=ADRF|RX=[PTCL]|TokenType=Root
+10	=hoːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2	7	discourse	_	AlignBegin=68436|AlignEnd=68616|Gloss==OBJ.2SG|RX==[PRO]|TokenType=Clit
 11	iːd	_	VERB	V1	Aspect=Aor|Gender=Masc|Number=Sing|VerbClass=1	12	dep:comp	_	AlignBegin=68616|AlignEnd=68855|Gloss=say\AOR|MGloss=3SG.M-say\AOR|MSeg=iː-d|RX=[PNG]-[V1].[IRG]|TokenType=Root
 12	=hoːb	_	SCONJ	CONJ	_	21	dep	_	AlignBegin=68855|AlignEnd=68975|Gloss==when|RX==[CONJ]|TokenType=Clit
 13	//	_	PUNCT	PUNCT	_	12	punct	_	AlignBegin=68975|AlignEnd=70197|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
@@ -429,7 +429,7 @@
 10	w=	_	DET	DET	Definite=Def|Gender=Masc|Number=Sing	11	det	_	AlignBegin=93825|AlignEnd=93910|Gloss=DEF.SG.M=|RX=[DET]=|TokenType=Clit
 11	ʔakraː	_	VERB	V1	VerbClass=1	9	nmod	_	AlignBegin=93910|AlignEnd=94080|Gloss=be_strong|MGloss=be_strong-CVB.MNR|MSeg=ʔakr-aː|RX=[V1]-.|TokenType=Root
 12	=ka	_	ADP	POSTP	Degree=Cmp	11	dep	_	AlignBegin=94080|AlignEnd=94165|Gloss==CMPR|RX==[POSTP]|TokenType=Clit
-13	-b	_	PRON	DET	Case=Acc|Gender=Masc	11	dep	_	AlignBegin=94165|AlignEnd=94250|Gloss==INDF.M.ACC|MGloss==INDF.M.ACC|MSeg=-b|RX==[DET]|TokenType=InflAff|wordform==b
+13	-b	_	PRON	DET	Case=Acc|Gender=Masc	11	dep	_	AlignBegin=94165|AlignEnd=94250|Gloss=-INDF.M.ACC|MGloss=-INDF.M.ACC|MSeg=-b|RX=-[DET]|TokenType=InflAff|wordform==b
 14	ʃibibna	_	VERB	V1	Number=Plur|VerbClass=1	21	dep:conj	_	AlignBegin=94250|AlignEnd=94532|Gloss=look|MGloss=look-IMP.PL|MSeg=ʃibib-na|RX=[V1]-[TAM].[PNG]|TokenType=Root
 15	=t	_	CCONJ	CONJ	_	14	cc	_	AlignBegin=94532|AlignEnd=94674|Gloss==COORD|RX==[CONJ]|TokenType=Clit
 16	/	_	PUNCT	PUNCT	_	14	punct	_	AlignBegin=94674|AlignEnd=95099|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
@@ -477,7 +477,7 @@
 31	//	_	PUNCT	PUNCT	_	30	punct	_	AlignBegin=102499|AlignEnd=103685|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 32	daːwri	_	ADJ	ADJ	_	33	dep:redup	_	AlignBegin=103685|AlignEnd=103990|Gloss=beautiful|RX=[ADJ]|TokenType=Root
 33	daːwri	_	ADJ	ADJ	_	24	amod	_	AlignBegin=103990|AlignEnd=104296|Gloss=beautiful|RX=[ADJ]|TokenType=Root
-34	ahaːt	_	VERB	V1	Gender=Fem|VerbClass=1	37	advcl	_	AlignBegin=104296|AlignEnd=104601|Gloss=be_there|MGloss=be_there-CVB.MNR=INDF.F|MSeg=ah-aː-t|RX=[V1].[IRG]-.=[DET]|TokenType=Root
+34	ahaːt	_	VERB	V1	Gender=Fem|VerbClass=1	37	advcl	_	AlignBegin=104296|AlignEnd=104601|Gloss=be_there|MGloss=be_there-CVB.MNR-INDF.F|MSeg=ah-aː-t|RX=[V1].[IRG]-.-[DET]|TokenType=Root
 35	/	_	PUNCT	PUNCT	_	34	punct	_	AlignBegin=104601|AlignEnd=104907|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 36	hajjʔajikʷtiːt	_	VERB	V2	VerbClass=2	37	advcl	_	AlignBegin=104907|AlignEnd=105240|Gloss=swing|MGloss=swing-CVB.SEQ|MSeg=hajjʔajikʷ-tiːt|RX=[V2]-.|TokenType=Root
 37	ikati	_	VERB	V1	Aspect=Imp|Gender=Masc|Number=Sing|VerbClass=1	0	root	_	AlignBegin=105240|AlignEnd=105573|Gloss=become\IPFV|MGloss=3SG.M-become\IPFV|MSeg=i-kati|RX=[PNG]-[V1].[IRG]|TokenType=Root
@@ -611,7 +611,7 @@
 6	t=	_	DET	DET	Definite=Def|Gender=Fem	7	det	_	AlignBegin=126642|AlignEnd=126726|Gloss=DEF.F=|RX=[DET]=|TokenType=Clit
 7	ʔarawi	_	NOUN	N	Number=Plur	9	obj	_	AlignBegin=126726|AlignEnd=126895|Gloss=friend\PL|MGloss=friend\PL-ABST|MSeg=ʔaraw-i|RX=[N]-[SUFX]|TokenType=Root
 8	toːn	_	DET	DEM	Case=Acc|Deixis=Prox|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	AlignBegin=126895|AlignEnd=127148|Gloss=PROX.SG.F.ACC|RX=[DEM]|TokenType=Root
-9	rhaːt	_	VERB	V2	Gender=Fem|VerbClass=2	11	dep:comp	_	AlignBegin=127148|AlignEnd=127337|Gloss=see|MGloss=see-CVB.MNR=INDF.F|MSeg=rh-aː-t|RX=[V2]-[PRF]=[DET]|TokenType=Root
+9	rhaːt	_	VERB	V2	Gender=Fem|VerbClass=2	11	dep:comp	_	AlignBegin=127148|AlignEnd=127337|Gloss=see|MGloss=see-CVB.MNR-INDF.F|MSeg=rh-aː-t|RX=[V2]-[PRF]-[DET]|TokenType=Root
 10	=u	_	AUX	N.COP	Number=Sing|Person=3|VerbType=Cop	9	cop	_	AlignBegin=127337|AlignEnd=127401|Gloss==COP.3SG|RX==[PRED].[N]|TokenType=Clit
 11	akoː	_	SCONJ	PTCL	_	16	dep	_	AlignBegin=127401|AlignEnd=127654|Gloss=given_that|RX=[PTCL]|TokenType=Root
 12	/	_	PUNCT	PUNCT	_	11	punct	_	AlignBegin=127654|AlignEnd=127907|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
@@ -621,7 +621,7 @@
 16	daːjeːtiːt	_	VERB	V2	VerbClass=2	21	advcl	_	AlignBegin=128579|AlignEnd=128915|Gloss=be_there|MGloss=be_there-CVB.SEQ|MSeg=daːj-eːtiːt|RX=[V2]-.|TokenType=Root
 17	/	_	PUNCT	PUNCT	_	16	punct	_	AlignBegin=128915|AlignEnd=129251|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 18	kʷiːkʷʔaːj	_	NOUN	N	Gender=Masc	21	vocative	_	AlignBegin=129251|AlignEnd=129528|Gloss=crow|RX=[N].[M]|TokenType=Root
-19	jhaː	_	PART	PTCL	_	18	vocative	_	AlignBegin=129528|AlignEnd=129805|Gloss=ADRF|RX=[PTCL]|TokenType=Root
+19	jhaː	_	INTJ	PTCL	_	18	discourse	_	AlignBegin=129528|AlignEnd=129805|Gloss=ADRF|RX=[PTCL]|TokenType=Root
 20	/	_	PUNCT	PUNCT	_	18	punct	_	AlignBegin=129805|AlignEnd=130832|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 21	ʔar~raraweːsamni	_	VERB	N	Gender=Fem|Number=Plur	23	ccomp	_	AlignBegin=130832|AlignEnd=131407|Gloss=friendship\PLAC|MGloss=friendship\PLAC-RECP-AOR.1PL|MSeg=ʔar~raraweː-sam-ni|Reported=Yes|RX=[N].[F]-[V2].[DER]-[TAM].[PNG]|TokenType=Root
 22	/	_	PUNCT	PUNCT	_	21	punct	_	AlignBegin=131407|AlignEnd=132209|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
@@ -634,7 +634,7 @@
 29	naː	_	NOUN	N	Gender=Fem	32	obj	_	AlignBegin=133406|AlignEnd=133471|Gloss=thing|RX=[N].[F]|TokenType=Root
 30	=t	_	DET	DET	Gender=Fem	29	det	_	AlignBegin=133471|AlignEnd=133536|Gloss==INDF.F|RX==[DET]|TokenType=Clit
 31	/	_	PUNCT	PUNCT	_	29	punct	_	AlignBegin=133536|AlignEnd=134863|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
-32	rhaːt	_	VERB	V2	Gender=Fem|VerbClass=2	34	dep:comp	_	AlignBegin=134863|AlignEnd=135056|Gloss=see|MGloss=see-CVB.MNR=INDF.F|MSeg=rh-aː-t|RX=[V2]-[PRF]=[DET]|TokenType=Root
+32	rhaːt	_	VERB	V2	Gender=Fem|VerbClass=2	34	dep:comp	_	AlignBegin=134863|AlignEnd=135056|Gloss=see|MGloss=see-CVB.MNR-INDF.F|MSeg=rh-aː-t|RX=[V2]-[PRF]-[DET]|TokenType=Root
 33	=u	_	AUX	N.COP	Number=Sing|Person=1|VerbType=Cop	32	cop	_	AlignBegin=135056|AlignEnd=135120|Gloss==COP.1SG|RX==[PRED].[N]|TokenType=Clit
 34	=it	_	SCONJ	CONJ	_	23	dislocated:mod	_	AlignBegin=135120|AlignEnd=135185|Gloss==CSL|RX==[CONJ]|TokenType=Clit
 35	//	_	PUNCT	PUNCT	_	23	punct	_	AlignBegin=135185|AlignEnd=136104|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
@@ -783,7 +783,7 @@
 9	//	_	PUNCT	PUNCT	_	8	punct	_	AlignBegin=166487|AlignEnd=166764|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 10	simaːsiwa	_	VERB	V1	Gender=Masc|Number=Sing|VerbClass=1	14	ccomp	_	AlignBegin=166764|AlignEnd=166956|Gloss=hear\INT|MGloss=CAUS-hear\INT-IMP.SG.M|MSeg=si-maːsiw-a|Reported=Yes|RX=[V1].[DER]-[V1].[DER]-[TAM].[PNG]|TokenType=Root
 11	=heːb	_	PRON	PRO	Case=Acc|Number=Sing|Person=1	10	obj	_	AlignBegin=166956|AlignEnd=167020|Gloss==OBJ.1SG|RX==[PRO]|TokenType=Clit
-12	hoːk	_	PART	_	Number=Sing|Person=2	10	discourse	_	AlignBegin=167020|AlignEnd=167277|Gloss=2SG.DAT\ABL|RX=[DM]|TokenType=Root
+12	hoːk	_	PRON	_	Number=Sing|Person=2	10	discourse	_	AlignBegin=167020|AlignEnd=167277|Gloss=2SG.DAT/ABL|RX=[DM]|TokenType=Root
 13	/	_	PUNCT	PUNCT	_	10	punct	_	AlignBegin=167277|AlignEnd=167534|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 14	tindi	_	VERB	V1	Aspect=Imp|Gender=Fem|Number=Sing|VerbClass=1	0	root	_	AlignBegin=167534|AlignEnd=167791|Gloss=say\IPFV|MGloss=3SG.F-say\IPFV|MSeg=ti-ndi|RX=[PNG]-[V1].[IRG]|TokenType=Root
 15	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	14	discourse	_	AlignBegin=167791|AlignEnd=168048|Gloss=say\PFV.3PL|RX=[V1].[IRG]|TokenType=Root
@@ -1008,7 +1008,7 @@
 7	/	_	PUNCT	PUNCT	_	6	punct	_	AlignBegin=205572|AlignEnd=205910|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 8	simaːsiwa	_	VERB	V1	Gender=Masc|Number=Sing|VerbClass=1	12	ccomp	_	AlignBegin=205910|AlignEnd=206198|Gloss=hear\INT|MGloss=CAUS-hear\INT-IMP.SG.M|MSeg=si-maːsiw-a|RX=[V1].[DER]-[V1].[DER]-[TAM].[PNG]|TokenType=Root
 9	=heːb	_	PRON	PRO	Case=Acc|Number=Sing|Person=1	8	obj	_	AlignBegin=206198|AlignEnd=206295|Gloss==OBJ.1SG|RX==[PRO]|TokenType=Clit
-10	hoːk	_	PART	_	Number=Sing|Person=2	8	discourse	_	AlignBegin=206295|AlignEnd=206681|Gloss=2SG.DAT\ABL|RX=[DM]|TokenType=Root
+10	hoːk	_	PRON	_	Number=Sing|Person=2	8	discourse	_	AlignBegin=206295|AlignEnd=206681|Gloss=2SG.DAT/ABL|RX=[DM]|TokenType=Root
 11	/	_	PUNCT	PUNCT	_	8	punct	_	AlignBegin=206681|AlignEnd=207389|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 12	tindi	_	VERB	V1	Aspect=Imp|Gender=Fem|Number=Sing|VerbClass=1	0	root	_	AlignBegin=207389|AlignEnd=207535|Gloss=say\IPFV|MGloss=3SG.F-say\IPFV|MSeg=ti-ndi|RX=[PNG]-[V1].[IRG]|TokenType=Root
 13	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	12	discourse	_	AlignBegin=207535|AlignEnd=207681|Gloss=say\PFV.3PL|RX=[V1].[IRG]|TokenType=Root
@@ -1399,7 +1399,7 @@
 # phonetic_text = diwa naːjaːti kʷiːkʷʔaːj / kʷiːkʷʔaːj tindi eːn //
 # text_en = It skipped dinner and it says: 'Crow! Crow!' they said.
 1	diwa	_	VERB	V2	VerbClass=2	2	advcl	_	AlignBegin=280559|AlignEnd=280794|Gloss=sleep|MGloss=sleep-CVB.MNR|MSeg=diw-a|RX=[V2]-.|TokenType=Root
-2	naːjaːt	_	VERB	V2	Gender=Fem|VerbClass=2	7	dep:conj	_	AlignBegin=280794|AlignEnd=280971|Gloss=spend_the_night|MGloss=spend_the_night-CVB.MNR=INDF.F|MSeg=naː-jaː-t|RX=[V2]-[PRF]=[DET]|TokenType=Root
+2	naːjaːt	_	VERB	V2	Gender=Fem|VerbClass=2	7	dep:conj	_	AlignBegin=280794|AlignEnd=280971|Gloss=spend_the_night|MGloss=spend_the_night-CVB.MNR-INDF.F|MSeg=naː-jaː-t|RX=[V2]-[PRF]-[DET]|TokenType=Root
 3	=i	_	AUX	N.COP	Number=Sing|Person=3|VerbType=Cop	2	cop	_	AlignBegin=280971|AlignEnd=281030|Gloss==COP.3SG|RX==[PRED].[N]|TokenType=Clit
 4	kʷiːkʷʔaːj	_	NOUN	N	Gender=Masc	6	dep:redup	_	AlignBegin=281030|AlignEnd=281266|Gloss=crow|RX=[N].[M]|TokenType=Root
 5	/	_	PUNCT	PUNCT	_	4	punct	_	AlignBegin=281266|AlignEnd=281772|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
@@ -1427,7 +1427,7 @@
 # text_en = 'No!  Leave me alone, you!' it says, they said.
 1	ka=	_	PART	PTCL	Aspect=Imp	2	advmod	_	AlignBegin=285067|AlignEnd=285160|Gloss=NEG.IPFV=|RX=[PTCL]=|TokenType=Clit
 2	aki	_	AUX	AUX	Aspect=Perf|Number=Sing	5	dep:conj	_	AlignBegin=285160|AlignEnd=285348|Gloss=become\PFV|MGloss=1SG-become\PFV|MSeg=a-ki|RX=[PNG]-[AUX].[NEG]|TokenType=Root
-3	jhaː	_	PART	PTCL	_	5	discourse	_	AlignBegin=285348|AlignEnd=285630|Gloss=ADRF|RX=[PTCL]|TokenType=Root
+3	jhaː	_	INTJ	PTCL	_	5	discourse	_	AlignBegin=285348|AlignEnd=285630|Gloss=ADRF|RX=[PTCL]|TokenType=Root
 4	/	_	PUNCT	PUNCT	_	3	punct	_	AlignBegin=285630|AlignEnd=285912|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 5	ʔiʃi	_	VERB	V1	Gender=Fem|Number=Sing|VerbClass=1	7	ccomp	_	AlignBegin=285912|AlignEnd=286088|Gloss=let|MGloss=let-IMP.SG.F|MSeg=ʔiʃ-i|Reported=Yes|RX=[V1]-[TAM].[PNG]|TokenType=Root
 6	=heːb	_	PRON	PRO	Case=Acc|Number=Sing|Person=1	5	obj	_	AlignBegin=286088|AlignEnd=286176|Gloss==OBJ.1SG|RX==[PRO]|TokenType=Clit

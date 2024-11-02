@@ -39,7 +39,7 @@
 31	/	_	PUNCT	_	_	30	punct	_	AlignBegin=10048|AlignEnd=10351|Gloss=/|TokenType=Break
 32	taktʔiː	_	NOUN	CN	Gender=Masc	35	obj	_	AlignBegin=10508|AlignEnd=10741|Gloss=scarecrow|RX=[CN].[M]|TokenType=Root
 33	=b	_	DET	DET	Case=Acc|Gender=Masc	32	det	_	AlignBegin=10741|AlignEnd=10974|Gloss==INDF.M.ACC|RX==[DET]|TokenType=Clit
-34	gʷidaːb	_	VERB	V2	Gender=Masc|VerbClass=2	32	acl	_	AlignBegin=10974|AlignEnd=11440|Gloss=be_numerous|MGloss=be_numerous-CVB.MNR=INDF.M.ACC|MSeg=gʷid-aː-b|RX=[V2]=[DET]|TokenType=Root
+34	gʷidaːb	_	VERB	V2	Gender=Masc|VerbClass=2	32	acl	_	AlignBegin=10974|AlignEnd=11440|Gloss=be_numerous|MGloss=be_numerous-CVB.MNR-INDF.M.ACC|MSeg=gʷid-aː-b|RX=[V2]-[DET]|TokenType=Root
 35	dannʔi	_	VERB	V1	Aspect=Imp|Number=Sing|Person=3|VerbClass=1	0	root	_	AlignBegin=11440|AlignEnd=11673|Gloss=do\IPFV.3SG|RX=[V1].[IRG]|TokenType=Root
 36	=jaːt	_	CCONJ	CONJ	_	35	cc	_	AlignBegin=11673|AlignEnd=11906|Gloss==COORD|RX==[CONJ]|TokenType=Clit
 37	//	_	PUNCT	_	_	35	punct	_	AlignBegin=11906|AlignEnd=12373|Gloss=//|TokenType=Break
@@ -165,7 +165,7 @@
 13	ti=	_	DET	DET	Definite=Def|Gender=Fem	14	det	_	AlignBegin=33638|AlignEnd=33758|Gloss=DEF.F=|RX=[DET]=|TokenType=Clit
 14	ʤoːharajaːj	_	NOUN	N	Gender=Fem	16	obj	_	AlignBegin=33758|AlignEnd=33996|Gloss=jewel|MGloss=jewel-SING|MSeg=ʤoːhara-jaːj|RX=[N].[F]|TokenType=Root
 15	/	_	PUNCT	_	_	14	punct	_	AlignBegin=33996|AlignEnd=34475|Gloss=/|TokenType=Break
-16	daːsaːt	_	VERB	V2	Gender=Fem|VerbClass=2	17	ccomp	_	AlignBegin=34475|AlignEnd=34877|Gloss=be_there|MGloss=be_there-CAUS-CVB.MNR=INDF.F|MSeg=daː-s-aː-t|RX=[V2]-[V2].[DER]-[PRF]=[DET]|TokenType=Root
+16	daːsaːt	_	VERB	V2	Gender=Fem|VerbClass=2	17	ccomp	_	AlignBegin=34475|AlignEnd=34877|Gloss=be_there|MGloss=be_there-CAUS-CVB.MNR-INDF.F|MSeg=daː-s-aː-t|RX=[V2]-[V2].[DER]-[PRF]-[DET]|TokenType=Root
 17	tiːkti	_	VERB	AUX	Aspect=Aor|Gender=Fem|Number=Sing	18	dep:comp	_	AlignBegin=34877|AlignEnd=35145|Gloss=become\AOR|MGloss=3SG.F-become\AOR|MSeg=tiː-kti|RX=[PNG]-[AUX].[PRF]|TokenType=Root
 18	=jeːb	_	SCONJ	CONJ.REL	Gender=Masc|Number=Sing|PronType=Rel	10	acl:relcl	_	AlignBegin=35145|AlignEnd=35279|Gloss==REL.SG.M|RX==[CONJ]|TokenType=Clit
 19	mariː	_	ADV	ADV	_	20	advmod	_	AlignBegin=35279|AlignEnd=35681|Gloss=from_the_direction|RX=[ADV]|TokenType=Root

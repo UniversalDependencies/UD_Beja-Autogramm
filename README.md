@@ -33,6 +33,9 @@ This treebank has been done in collaboration between Vanhove Martine, Ziane Raya
 
 # Changelog
 
+* 2025-11-15 v2.15
+ * 383 new sentences (18 samples)
+
 * 2024-05-15 v2.14
  * 300 new sentences
  * Original annotation in mSUD (https://github.com/surfacesyntacticud/mSUD_Beja-NSC), see LREC-COLING 2024 paper: [Joint Annotation of Morphology and Syntax in Dependency Treebanks](https://inria.hal.science/hal-04550108)

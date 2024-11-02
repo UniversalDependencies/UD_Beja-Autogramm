@@ -355,7 +355,7 @@
 7	/	_	PUNCT	_	_	6	punct	_	AlignBegin=58814|AlignEnd=59102|Gloss=/|TokenType=Break
 8	kaːm	_	NOUN	N	_	10	obj	_	AlignBegin=59102|AlignEnd=59230|Gloss=camel|RX=[N]|TokenType=Root
 9	=oːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2|Poss=Yes	8	nmod:poss	_	AlignBegin=59230|AlignEnd=59359|Gloss==POSS.2SG.ACC|RX==[PRO]|TokenType=Clit
-10	rhaːb	_	VERB	V2	Gender=Masc|VerbClass=2	13	ccomp	_	AlignBegin=59359|AlignEnd=59616|Gloss=see|MGloss=see-CVB.MNR=INDF.M.ACC|MSeg=rh-aː-b|RX=[V2]=[DET]|TokenType=Root
+10	rhaːb	_	VERB	V2	Gender=Masc|VerbClass=2	13	ccomp	_	AlignBegin=59359|AlignEnd=59616|Gloss=see|MGloss=see-CVB.MNR-INDF.M.ACC|MSeg=rh-aː-b|RX=[V2]-[DET]|TokenType=Root
 11	ka=	_	PART	PTCL	Aspect=Imp|Polarity=Neg	10	advmod	_	AlignBegin=59616|AlignEnd=59702|Gloss=NEG.IPFV=|RX=[PTCL]=|TokenType=Clit
 12	aki	_	AUX	AUX	Aspect=Perf|Number=Sing	10	aux	_	AlignBegin=59702|AlignEnd=59873|Gloss=become\PFV|MGloss=1SG-become\PFV|MSeg=a-ki|Reported=Yes|RX=[PNG]-[AUX].[NEG]|TokenType=Root
 13	ini	_	VERB	V1	Aspect=Perf|Gender=Masc|Number=Sing|VerbClass=1	0	root	_	AlignBegin=59873|AlignEnd=60130|Gloss=say\PFV|MGloss=3SG.M-say\PFV|MSeg=i-ni|RX=[PNG]-[V1].[IRG]|TokenType=Root
