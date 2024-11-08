@@ -34,6 +34,7 @@ This treebank has been done in collaboration between Vanhove Martine, Ziane Raya
 # Changelog
 
 * 2025-11-15 v2.15
+ * Repository renamed from UD_Beja-NSC to UD_Beja-Autogramm.
  * 383 new sentences (18 samples)
 
 * 2024-05-15 v2.14
