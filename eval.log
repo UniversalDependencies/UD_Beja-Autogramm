@@ -1,40 +1,40 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
-Evaluating the following revision of UD_Beja-NSC:
-commit f68d7c62a698367672d5322d02375426dd400790
-Merge: b860a5d 05d6756
+Date:   Sun Nov 10 10:33:45 2024 +0100
+Evaluating the following revision of UD_Beja-Autogramm:
+commit 8d86389fbc6ee05c7c382aa69abc02330f82ee60
+Merge: d362c5e 6a1b6a6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 5888 of 5888 words (nodes).
-Size: min(0, log((N/1000)**2)) = 3.54583276285315.
+Size: counted 11951 of 11951 words (nodes).
+Size: min(0, log((N/1000)**2)) = 4.96162991376949.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Did not find more than 10000 training words.
 Split: Did not find at least 10000 development words.
-Split: Did not find at least 10000 test words.
+Split: Found at least 10000 test words.
 Lemmas: '_' is the most frequent lemma.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 3612 out of 5888 total words have one or more features.
+Features: 7511 out of 11951 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
-Universal relations: 30 out of 37 found in the corpus.
+Universal relations: 27 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL       2391
-Udapi: found 2391 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 5888 words.
+               TOTAL       4842
+Udapi: found 4842 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 11951 words.
 Genres: found 1 out of 17 known.
-/net/work/people/zeman/unidep/tools/validate.py --lang bej --max-err=10 UD_Beja-NSC/bej_nsc-ud-test.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang bej --max-err=10 UD_Beja-Autogramm/bej_autogramm-ud-test.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
-(weight=0.256410256410256) * (score{size}=0.256655933776481) = 0.0658092137888412
-(weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
+(weight=0.256410256410256) * (score{size}=0.359134748799366) = 0.0920858330254784
+(weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.244046138496354) * (availability=1) * (validity=1) = 0.244046138496354
-STARS = 1
-UD_Beja-NSC	0.244046138496354	1
+(weight=0.0769230769230769) * (score{udeprels}=0.583783783783784) = 0.0449064449064449
+(TOTAL score=0.282256229666463) * (availability=1) * (validity=1) = 0.282256229666463
+STARS = 1.5
+UD_Beja-Autogramm	0.282256229666463	1.5
