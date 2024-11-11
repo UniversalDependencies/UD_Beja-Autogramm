@@ -5,22 +5,22 @@ A Universal Dependencies corpus for Beja, North-Cushitic branch of the Afro-Asia
 
 # Introduction
 
-The treebank is an automatic conversion of the [SUD_beja-NSC](https://github.com/surfacesyntacticud/SUD_Beja-NSC), which was extracted from Martine Vanhove's corpus in Elan format (https://corpafroas.huma-num.fr/Archives/corpus.php).
+The treebank is an automatic conversion of the [mSUD_Beja-Autogramm](https://github.com/surfacesyntacticud/mSUD_Beja-Autogramm), which was extracted from Martine Vanhove's corpus in Elan format (https://corpafroas.huma-num.fr/Archives/corpus.php).
 
-Sentences are annotated with the following metadata :
-+ `sent_id` (which indicates the source file and the segmentation identifier in the source file)
-+ `text` (lexical tokenization)
-+ `text_en` (english interpretation)
-+ `text_tokenized` (morphological tokenization)
+Sentences are annotated with the following metadata:
+ - `sent_id`: which indicates the source file and the segmentation identifier in the source file
+ - `text`: lexical tokenization
+ - `text_en`: english interpretation
+ - `phonetic_text`
+ - `sound_url`
 
 # Structure
 
 The data are spoken data, so the segmentation of sentences is a semantically relevant segmentation of utterances, where punctuation represents the end of intonative units (a single `/` for a minor unit and a double `//` for major units).
 
-In the SUD version of the Treebank, we operate a morphological segmentation allowing us to highlight dependency relations between the root and its affixes or clitics.
-
+In the mSUD version of the Treebank, we operate a morphological segmentation allowing us to highlight dependency relations between the root and its affixes or clitics.
 In order to follow the UD guidelines, the segmentation is changed for the conversion to UD and affixes are merged with their root.
-A morph-based “UD-like” version is available [here](https://github.com/UniversalDependencies/UD_Beja-NSC/tree/dev/not-to-release).
+See LREC-COLING 2024 paper: [Joint Annotation of Morphology and Syntax in Dependency Treebanks](https://inria.hal.science/hal-04550108).
 
 # Reference
 
@@ -33,9 +33,13 @@ This treebank has been done in collaboration between Vanhove Martine, Ziane Raya
 
 # Changelog
 
+* 2025-11-15 v2.15
+ * Repository renamed from UD_Beja-NSC to UD_Beja-Autogramm.
+ * 383 new sentences (18 samples)
+
 * 2024-05-15 v2.14
  * 300 new sentences
- * Original annotation in mSUD (https://github.com/surfacesyntacticud/mSUD_Beja-NSC), see LREC-COLING 2024 paper: [Joint Annotation of Morphology and Syntax in Dependency Treebanks](https://inria.hal.science/hal-04550108)
+ * Original annotation in mSUD (https://github.com/surfacesyntacticud/mSUD_Beja-Autogramm)
 
 * 2023-11-15 v2.13
  * Two samples added (06_foreigner and 11_coffee).
