@@ -6,7 +6,6 @@
 # phonetic_text = tak / balad gaːl =naːji / askin -aː =b =u /
 # text = tak / balad gaːlnaːj =iːb / askinaːb =u /
 # text_en = A man was living in one village,
-# tags = TODO
 1	tak	_	NOUN	N	Gender=Masc	7	nsubj	_	AlignBegin=0|AlignEnd=300|Gloss=man|RX=[SBJ].[N].[M]|TokenType=Root
 2	/	_	PUNCT	PUNCT	_	1	punct	_	AlignBegin=300|AlignEnd=600|Gloss=/|TokenType=Break
 3	balad	_	NOUN	N	Foreign=Yes|Gender=Masc	5	dep:comp	_	AlignBegin=2256|AlignEnd=2622|Gloss=country|Lang=ar|RX=[N].[M].[BORR].[ARA]|TokenType=Root
@@ -841,12 +840,12 @@
 15	//	_	PUNCT	_	_	14	punct	_	AlignBegin=170179|AlignEnd=170384|Gloss=//|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_08_drunkard_190-200
+# text = dhaːj jʔeːtiːt / aʃanbiːb =hoːb / uː= tak i= ʃawwi / i= suːr geːb =oːn askinaːb akajeː / amanri =hoːb / i= girma =i geːb eːstʔi /
 # speaker_id = SP
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ_MV_NARR_08_DRUNKARD.WAV
 # sent_timecode = 171030, 178795
 # phonetic_text = dhaːj jʔ -eːtiːt / a- ʃanbiːb =hoːb / uː= tak i= ʃawwi / i= suːr geːb =oːn askin -aː =b aka -j eː / a- manri =hoːb / i= girma -i geːb eː- stʔi /
-# text = dhaːj jʔeːtiːt / aʃanbiːb =hoːb / uː= tak i= ʃawwi / i= suːr geːb =oːn askinaːb akajeː / amanri =hoːb / i= girma =i geːb eːstʔi /
-# text_en = "I go towards them and when I look, when I find that it is the man who used to live next to us, I sit next to his head
+# text_en = "I go towards them and when I look, when I find that he is the man who used to live next to us, I sit next to his head
 1	dhaːj	_	ADP	POSTP	_	2	obl:arg	_	AlignBegin=171030|AlignEnd=171269|Gloss=DIR|RX=[POSTP]|TokenType=Root
 2	jʔeːtiːt	_	VERB	V2	VerbClass=2	4	advcl	_	AlignBegin=171269|AlignEnd=171508|Gloss=come|MGloss=come-CVB.SEQ|MSeg=jʔ-eːtiːt|RX=[V2].[IRG]|TokenType=Root
 3	/	_	PUNCT	_	_	2	punct	_	AlignBegin=171508|AlignEnd=171746|Gloss=/|TokenType=Break
