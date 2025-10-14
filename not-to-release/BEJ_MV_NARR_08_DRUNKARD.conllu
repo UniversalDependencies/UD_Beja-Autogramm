@@ -79,7 +79,7 @@
 30	giːgi	_	VERB	V2	Number=Sing|VerbClass=2	33	dep:comp	_	AlignBegin=15227|AlignEnd=15564|Gloss=leave|MGloss=leave-FUT.SG|MSeg=giːg-i|RX=[V2]-[TAM].[PNG]|TokenType=Root
 31	bi=	_	PART	PTCL	Mood=Opt	30	advmod	_	AlignBegin=15564|AlignEnd=15648|Gloss=OPT=|RX=[PTCL]=|TokenType=Clit
 32	idi	_	AUX	AUX.FUT	Gender=Masc|Mood=Opt|Number=Sing|Polarity=Neg	30	aux	_	AlignBegin=15648|AlignEnd=15816|Gloss=say\OPT.NEG|MGloss=3SG.M-say\OPT.NEG|MSeg=i-di|RX=[PNG]-[AUX].[FUT]|TokenType=Root
-33	=jeːk	_	SCONJ	CONJ	_	39	dep	_	AlignBegin=15816|AlignEnd=15901|Gloss==if|RX==[CONJ]|TokenType=Clit
+33	=jeːk	_	SCONJ	CONJ	_	39	dep:conj	_	AlignBegin=15816|AlignEnd=15901|Gloss==if|RX==[CONJ]|TokenType=Clit
 34	//	_	PUNCT	_	_	33	punct	_	AlignBegin=15901|AlignEnd=16238|Gloss=//|TokenType=Break
 35	tara	_	CCONJ	CONJ	_	36	cc	_	AlignBegin=16379|AlignEnd=16682|Gloss=or|RX=[CONJ]|TokenType=Root
 36	tuːbi	_	VERB	V2	Number=Sing|VerbClass=2	39	dep:comp	_	AlignBegin=16682|AlignEnd=16985|Gloss=repent|MGloss=repent-FUT.SG|MSeg=tuːb-i|RX=[V2]-[TAM].[PNG]|TokenType=Root
@@ -894,7 +894,7 @@
 # text_en = I say: 'That man, gosh! what happened to him?" and
 1	oːn	_	DET	DEM	Case=Acc|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	AlignBegin=180295|AlignEnd=180509|Gloss=PROX.SG.M.ACC|RX=[DEM]|TokenType=Root
 2	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	det	_	AlignBegin=180509|AlignEnd=180616|Gloss=DEF.SG.M.ACC=|RX=[DET]=|TokenType=Clit
-3	tak	_	NOUN	N	Gender=Masc	8	obj	_	AlignBegin=180616|AlignEnd=180723|Gloss=man|RX=[N].[M]|TokenType=Root
+3	tak	_	NOUN	N	Gender=Masc	8	iobj	_	AlignBegin=180616|AlignEnd=180723|Gloss=man|RX=[N].[M]|TokenType=Root
 4	iraːnaj	_	INTJ	_	_	3	discourse	_	AlignBegin=180723|AlignEnd=180937|Gloss=gosh|RX=[EXCL]|TokenType=Root
 5	/	_	PUNCT	_	_	3	punct	_	AlignBegin=180937|AlignEnd=181152|Gloss=/|TokenType=Break
 6	naːn	_	PRON	PRO	PronType=Int	8	obj	_	AlignBegin=181152|AlignEnd=181432|Gloss=what|RX=[PRO].[Q]|TokenType=Root
