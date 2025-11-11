@@ -56,6 +56,7 @@ This treebank has been done in collaboration between Vanhove Martine, Ziane Raya
 Data available since: UD v2.8
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: spoken
 Lemmas: not available
 UPOS: converted from manual

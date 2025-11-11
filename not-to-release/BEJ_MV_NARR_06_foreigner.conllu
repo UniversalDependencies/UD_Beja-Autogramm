@@ -94,7 +94,7 @@
 9	ti=	_	DET	DET	Definite=Def|Gender=Fem	8	reparandum	_	AlignBegin=18384|AlignEnd=18623|Gloss=DEF.F=|RX=[DET]=|TokenType=Clit
 10	mindikʷijaːj	_	NOUN	N	Gender=Fem	11	obj	_	AlignBegin=18623|AlignEnd=18862|Gloss=rifle|RX=[N].[F]|TokenType=Root
 11	aniːw	_	VERB	V1	Aspect=Imp|Number=Sing|VerbClass=1	37	ccomp	_	AlignBegin=18862|AlignEnd=19180|Gloss=give\IPFV|MGloss=1SG-give\IPFV|MSeg=a-niːw|RX=[PNG]-[V1].[IRG]|TokenType=Root
-12	=hoːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2	11	obj	_	AlignBegin=19180|AlignEnd=19340|Gloss==OBJ.2SG|RX==[PRO]|TokenType=Clit
+12	=hoːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2	11	iobj	_	AlignBegin=19180|AlignEnd=19340|Gloss==OBJ.2SG|RX==[PRO]|TokenType=Clit
 13	umbaruːk	_	PRON	PRO	Case=Nom|Gender=Masc|Number=Sing|Person=2	14	nsubj	_	AlignBegin=19340|AlignEnd=19818|Gloss=2SG.M.NOM|RX=[SBJ].[PRO]|TokenType=Root
 14	danri	_	VERB	V1	Aspect=Imp|Number=Sing|Person=2|VerbClass=1	15	dep:comp	_	AlignBegin=19818|AlignEnd=20057|Gloss=kill\IPFV.2SG|RX=[V1]|TokenType=Root
 15	=jeːk	_	SCONJ	CONJ	_	35	dep	_	AlignBegin=20057|AlignEnd=20296|Gloss==if|RX==[CONJ]|TokenType=Clit
@@ -118,7 +118,7 @@
 33	kass	_	ADJ	DET	_	25	dislocated:mod	_	AlignBegin=24534|AlignEnd=24699|Gloss=all|RX=[ADJ]|TokenType=Root
 34	=oː	_	PRON	PRO	Case=Acc|Number=Sing|Person=3|Poss=Yes	33	nmod:poss	_	AlignBegin=24699|AlignEnd=24864|Gloss==POSS.3SG.ACC|RX==[PRO]|TokenType=Clit
 35	aniːw	_	VERB	V1	Aspect=Imp|Number=Sing|VerbClass=1	11	reparandum	_	AlignBegin=24864|AlignEnd=25084|Gloss=give\IPFV|MGloss=1SG-give\IPFV|MSeg=a-niːw|Reported=Yes|RX=[PNG]-[V1].[IRG]|TokenType=Root
-36	=hoːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2	35	obj	_	AlignBegin=25084|AlignEnd=25194|Gloss==OBJ.2SG|RX==[PRO]|TokenType=Clit
+36	=hoːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2	35	iobj	_	AlignBegin=25084|AlignEnd=25194|Gloss==OBJ.2SG|RX==[PRO]|TokenType=Clit
 37	indi	_	VERB	V1	Aspect=Imp|Gender=Masc|Number=Sing|VerbClass=1	0	root	_	AlignBegin=25194|AlignEnd=25524|Gloss=say\IPFV|MGloss=3SG.M-say\IPFV|MSeg=i-ndi|RX=[PNG]-[V1].[IRG]|TokenType=Root
 38	//	_	PUNCT	_	_	37	punct	_	AlignBegin=25524|AlignEnd=25854|Gloss=//|TokenType=Break
 
@@ -136,7 +136,7 @@
 5	ʃartija	_	NOUN	N	Gender=Fem|Number=Plur	6	obj	_	AlignBegin=27907|AlignEnd=28270|Gloss=line|MGloss=line-PL|MSeg=ʃarti-ja|RX=[N].[F]|TokenType=Root
 6	dʔiti	_	VERB	V1	VerbClass=1	21	dep:conj	_	AlignBegin=28270|AlignEnd=28633|Gloss=do|MGloss=do-CVB.GNRL|MSeg=dʔi-ti|RX=[V1].[IRG]|TokenType=Root
 7	aniːw	_	AUX	AUX.BENF	Aspect=Imp|Number=Sing	6	aux	_	AlignBegin=28633|AlignEnd=28875|Gloss=give\IPFV|MGloss=1SG-give\IPFV|MSeg=a-niːw|RX=[PNG]-[AUX].[BENF]|TokenType=Root
-8	=hoːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2	6	obj	_	AlignBegin=28875|AlignEnd=28996|Gloss==OBJ.2SG|RX==[PRO]|TokenType=Clit
+8	=hoːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2	6	iobj	_	AlignBegin=28875|AlignEnd=28996|Gloss==OBJ.2SG|RX==[PRO]|TokenType=Clit
 9	/	_	PUNCT	_	_	6	punct	_	AlignBegin=28996|AlignEnd=29358|Gloss=/|TokenType=Break
 10	eːt	_	DET	DEM	Case=Acc|Deixis=Prox|Gender=Fem|Number=Plur|PronType=Dem	12	det	_	AlignBegin=29358|AlignEnd=29708|Gloss=PROX.PL.F.ACC|RX=[DEM]|TokenType=Root
 11	ti=	_	DET	DET	Definite=Def|Gender=Fem	12	det	_	AlignBegin=29708|AlignEnd=29825|Gloss=DEF.F=|RX=[DET]=|TokenType=Clit
@@ -203,7 +203,7 @@
 11	/	_	PUNCT	_	_	10	punct	_	AlignBegin=38440|AlignEnd=38795|Gloss=/|TokenType=Break
 12	idʔi	_	VERB	V1	Aspect=Perf|Gender=Masc|Number=Sing|VerbClass=1	0	root	_	AlignBegin=38795|AlignEnd=39082|Gloss=do\PFV|MGloss=3SG.M-do\PFV|MSeg=i-dʔi|RX=[PNG]-[V1].[IRG]|TokenType=Root
 13	ihi	_	AUX	AUX.BENF	Aspect=Perf|Gender=Masc|Number=Sing	12	aux	_	AlignBegin=39082|AlignEnd=39274|Gloss=give\PFV|MGloss=3SG.M-give\PFV|MSeg=i-hi|RX=[PNG]-[AUX].[BENF]|TokenType=Root
-14	=heːb	_	PRON	PRO	Number=Sing|Person=1	12	obj	_	AlignBegin=39274|AlignEnd=39369|Gloss==OBJ.1SG|RX==[PRO]|TokenType=Clit
+14	=heːb	_	PRON	PRO	Number=Sing|Person=1	12	iobj	_	AlignBegin=39274|AlignEnd=39369|Gloss==OBJ.1SG|RX==[PRO]|TokenType=Clit
 15	/	_	PUNCT	_	_	12	punct	_	AlignBegin=39369|AlignEnd=39655|Gloss=/|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_06_foreigner_42-49
