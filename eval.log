@@ -1,7 +1,51 @@
-Usage:   perl -I ./tools ./tools/evaluate_treebank.pl <ud-treebank-name>
-Example: perl -I ./tools ./tools/evaluate_treebank.pl UD_Czech-PDTC
-Before running, make sure the current folder is one level above the clones of UD GitHub repositories.
-Specifically, the subfolders should include the evaluated treebank(s), as well as the tools folder,
-from which this script is invoked and which also holds the validator.
-$0 == tools/evaluate_treebank.pl
-The script must be invoked using relative path (starting with a dot) from the superordinate folder at tools/evaluate_treebank.pl line 40.
+Running the following version of UD tools:
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 5 17:01:41 2026 +0200
+Evaluating the following revision of UD_Beja-Autogramm:
+commit 47d22cce30bc27ce30e6590d96e080699d3a7ff0
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed May 6 12:05:41 2026 +0200
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'bej_autogramm'
+Language code (from CoNLL-U file name) = 'bej'
+Found the following data files: bej_autogramm-ud-test.conllu
+Size: counted 11948 of 11948 words (nodes).
+Size: min(0, log((N/1000)**2)) = 4.96112780070773.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: '_' is the most frequent lemma.
+Universal POS tags: 16 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 0.8.
+Features: 7512 out of 11948 total words have one or more features.
+Features: source of annotation (from README) factor is 0.8.
+Universal relations: 28 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 0.8.
+Genres: found 1 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang bej --max-err=10 UD_Beja-Autogramm/bej_autogramm-ud-test.conllu
+[Line 9 Sent BEJ_MV_NARR_01_shelter_001-005]: [L3 WARNING pron-det-without-prontype] The word '=i' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 11 Sent BEJ_MV_NARR_01_shelter_001-005]: [L3 WARNING pron-det-without-prontype] The word 'hoː' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 23 Sent BEJ_MV_NARR_01_shelter_006-014]: [L3 WARNING pron-det-without-prontype] The word 'i=' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 29 Sent BEJ_MV_NARR_01_shelter_006-014]: [L3 WARNING pron-det-without-prontype] The word 'i=' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 31 Sent BEJ_MV_NARR_01_shelter_006-014]: [L3 WARNING pron-det-without-prontype] The word '=iji' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 39 Sent BEJ_MV_NARR_01_shelter_006-014]: [L3 WARNING pron-det-without-prontype] The word '=i' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 52 Sent BEJ_MV_NARR_01_shelter_015-024]: [L3 WARNING pron-det-without-prontype] The word 'oː=' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 65 Sent BEJ_MV_NARR_01_shelter_015-024]: [L3 WARNING pron-det-without-prontype] The word '=joː' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 68 Sent BEJ_MV_NARR_01_shelter_015-024]: [L3 WARNING pron-det-without-prontype] The word 'i=' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 82 Sent BEJ_MV_NARR_01_shelter_025-033]: [L3 WARNING pron-det-without-prontype] The word 'uː=' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 2210
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=0.01) = 0.00111111111111111
+(weight=0.37037037037037) * (score{size}=0.35909840464403) = 0.132999409127419
+(weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
+(weight=0.111111111111111) * (score{tags}=0.752941176470588) = 0.0836601307189542
+(weight=0.111111111111111) * (score{udeprels}=0.605405405405405) = 0.0672672672672673
+(TOTAL score=0.405284831804998) * (availability=1) * (validity=1) = 0.405284831804998
+STARS = 2
+UD_Beja-Autogramm	0.405284831804998	2
