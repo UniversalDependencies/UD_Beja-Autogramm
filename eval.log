@@ -1,51 +1,7 @@
-Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
-Evaluating the following revision of UD_Beja-Autogramm:
-commit 32b5db7c4ac7b90bb5f832e31d2abd1a88413029
-Merge: c502a08 378a525
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
-Language-treebank code (from CoNLL-U file name) = 'bej_autogramm'
-Language code (from CoNLL-U file name) = 'bej'
-Found the following data files: bej_autogramm-ud-test.conllu
-Size: counted 11951 of 11951 words (nodes).
-Size: min(0, log((N/1000)**2)) = 4.96162991376949.
-Size: maximum value 13.815511 is for 1000000 words or more.
-Split: Did not find more than 10000 training words.
-Split: Did not find at least 10000 development words.
-Split: Found at least 10000 test words.
-Lemmas: '_' is the most frequent lemma.
-Universal POS tags: 16 out of 17 found in the corpus.
-Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 7510 out of 11951 total words have one or more features.
-Features: source of annotation (from README) factor is 0.8.
-Universal relations: 27 out of 37 found in the corpus.
-Universal relations: source of annotation (from README) factor is 0.8.
-Genres: found 1 out of 18 known.
-/net/work/people/zeman/unidep/tools/validate.py --lang bej --max-err=10 UD_Beja-Autogramm/bej_autogramm-ud-test.conllu
-[Line 10 Sent BEJ_MV_NARR_01_shelter_001-005]: [L3 Warning pron-det-without-prontype] The word '=i' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 12 Sent BEJ_MV_NARR_01_shelter_001-005]: [L3 Warning pron-det-without-prontype] The word 'hoː' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 24 Sent BEJ_MV_NARR_01_shelter_006-014]: [L3 Warning pron-det-without-prontype] The word 'i=' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 30 Sent BEJ_MV_NARR_01_shelter_006-014]: [L3 Warning pron-det-without-prontype] The word 'i=' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 32 Sent BEJ_MV_NARR_01_shelter_006-014]: [L3 Warning pron-det-without-prontype] The word '=iji' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 40 Sent BEJ_MV_NARR_01_shelter_006-014]: [L3 Warning pron-det-without-prontype] The word '=i' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 53 Sent BEJ_MV_NARR_01_shelter_015-024]: [L3 Warning pron-det-without-prontype] The word 'oː=' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 66 Sent BEJ_MV_NARR_01_shelter_015-024]: [L3 Warning pron-det-without-prontype] The word '=joː' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 69 Sent BEJ_MV_NARR_01_shelter_015-024]: [L3 Warning pron-det-without-prontype] The word 'i=' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 83 Sent BEJ_MV_NARR_01_shelter_025-033]: [L3 Warning pron-det-without-prontype] The word 'uː=' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 2209
-*** PASSED ***
-Validity: 1
-(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
-(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
-(weight=0.111111111111111) * (score{lemmas}=0.01) = 0.00111111111111111
-(weight=0.37037037037037) * (score{size}=0.359134748799366) = 0.133012869925691
-(weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
-(weight=0.111111111111111) * (score{tags}=0.752941176470588) = 0.0836601307189542
-(weight=0.111111111111111) * (score{udeprels}=0.583783783783784) = 0.0648648648648649
-(TOTAL score=0.402895890200868) * (availability=1) * (validity=1) = 0.402895890200868
-STARS = 2
-UD_Beja-Autogramm	0.402895890200868	2
+Usage:   perl -I ./tools ./tools/evaluate_treebank.pl <ud-treebank-name>
+Example: perl -I ./tools ./tools/evaluate_treebank.pl UD_Czech-PDTC
+Before running, make sure the current folder is one level above the clones of UD GitHub repositories.
+Specifically, the subfolders should include the evaluated treebank(s), as well as the tools folder,
+from which this script is invoked and which also holds the validator.
+$0 == tools/evaluate_treebank.pl
+The script must be invoked using relative path (starting with a dot) from the superordinate folder at tools/evaluate_treebank.pl line 40.
