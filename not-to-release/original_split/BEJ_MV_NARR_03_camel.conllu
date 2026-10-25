@@ -365,7 +365,7 @@
 8	/	_	PUNCT	PUNCT	_	4	punct	_	TokenType=Break|WordAlignmentBegin=77293|WordAlignmentEnd=78459
 9	i=	_	DET	DET	Definite=Def|Gender=Masc	10	det	_	Gloss=DEF|RX=[DET]=|TokenType=Clit|WordAlignmentBegin=78459|WordAlignmentEnd=78599
 10	kaːm	_	NOUN	N	_	13	iobj	_	Gloss=camel|RX=[N]|TokenType=Root|WordAlignmentBegin=78599|WordAlignmentEnd=78739
-11	=i	_	PRON	PRO	Case=Acc|Number=Sing|Person=1|Poss=Yes	10	nmod	_	Gloss=POSS1|RX==[PRO]|TokenType=Clit|WordAlignmentBegin=78739|WordAlignmentEnd=78880
+11	=i	_	PRON	PRO	Case=Acc|Number=Sing|Person=1|Poss=Yes	10	nmod	_	Gloss=POSS|RX==[PRO]|TokenType=Clit|WordAlignmentBegin=78739|WordAlignmentEnd=78880
 12	jam	_	NOUN	N	Gender=Masc|Number=Plur	13	obj	_	Gloss=water|RX=[N].[PL].[M]|TokenType=Root|WordAlignmentBegin=78880|WordAlignmentEnd=79301
 13	gʷʔasaːb	_	VERB	V2	Gender=Masc|VerbClass=2	0	root	_	Gloss=drink.CAUS.CVB.MNR|MGloss=drink-CAUS-CVB.MNR-INDF.M.ACC|MSeg=gʷʔa-s-aː-b|RX=[V2]-[V2].[DER]-[PRF]-[DET]|TokenType=Root|WordAlignmentBegin=79301|WordAlignmentEnd=79637
 14	=u	_	AUX	N,COP	Number=Sing|Person=1|VerbType=Cop	13	cop	_	Gloss=COP|RX==[PRED].[N]|TokenType=Clit|WordAlignmentBegin=79637|WordAlignmentEnd=79722

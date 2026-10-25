@@ -420,7 +420,7 @@
 11	/	_	PUNCT	_	_	10	punct	_	Gloss=/|TokenType=Break|WordAlignmentBegin=75741|WordAlignmentEnd=76157
 12	w=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	det	_	Gloss=DEF|RX=[DET]=|TokenType=Clit|WordAlignmentBegin=76683|WordAlignmentEnd=76841
 13	jhaːm	_	NOUN	N	Gender=Masc	17	nmod	_	Gloss=leopard|RX=[N].[M]|TokenType=Root|WordAlignmentBegin=76841|WordAlignmentEnd=76998
-14	hasara	_	ADV	PTCL	_	13	discourse	_	Gloss=ADVS|RX=[PTCL]|TokenType=Root|WordAlignmentBegin=76998|WordAlignmentEnd=77313
+14	hasara	_	PART	PTCL	_	13	discourse	_	Gloss=ADVS|RX=[PTCL]|TokenType=Root|WordAlignmentBegin=76998|WordAlignmentEnd=77313
 15	/	_	PUNCT	_	_	13	punct	_	Gloss=/|TokenType=Break|WordAlignmentBegin=77313|WordAlignmentEnd=77628
 16	i=	_	DET	DET	Definite=Def|Gender=Masc	17	det	_	Gloss=DEF|RX=[DET]=|TokenType=Clit|WordAlignmentBegin=77858|WordAlignmentEnd=78017
 17	daba	_	NOUN	N	Gender=Masc	20	nsubj	_	Gloss=front|RX=[SBJ].[N].[M]|TokenType=Root|WordAlignmentBegin=78017|WordAlignmentEnd=78176

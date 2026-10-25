@@ -34,12 +34,12 @@ This treebank has been done in collaboration between Vanhove Martine, Ziane Raya
 # Changelog
 
 * 2025-11-15 v2.15
- * Repository renamed from UD_Beja-NSC to UD_Beja-Autogramm.
- * 383 new sentences (18 samples)
+  * Repository renamed from UD_Beja-NSC to UD_Beja-Autogramm.
+  * 383 new sentences (18 samples)
 
 * 2024-05-15 v2.14
- * 300 new sentences
- * Original annotation in mSUD (https://github.com/surfacesyntacticud/mSUD_Beja-Autogramm)
+  * 300 new sentences
+  * Original annotation in mSUD (https://github.com/surfacesyntacticud/mSUD_Beja-Autogramm)
 
 * 2023-11-15 v2.13
  * Two samples added (06_foreigner and 11_coffee).

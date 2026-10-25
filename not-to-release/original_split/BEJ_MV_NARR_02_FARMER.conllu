@@ -1007,7 +1007,7 @@
 10	=t	_	DET	DET	Gender=Fem	9	det	_	Gloss=INDF|RX==[DET]|TokenType=Clit|WordAlignmentBegin=223118|WordAlignmentEnd=223228
 11	=iːb	_	ADP	POSTP	Case=Loc|Number=Sing	9	case	_	Gloss=LOC|RX==[POSTP]|TokenType=Clit|WordAlignmentBegin=223228|WordAlignmentEnd=223337
 12	dʔijaː	_	VERB	V1	VerbClass=1	21	dep:conj	_	Gloss=do.CVB.MNR|MGloss=do-CVB.MNR|MSeg=dʔi-jaː|RX=[V1].[IRG]-[PRF]|TokenType=Root|WordAlignmentBegin=223337|WordAlignmentEnd=223483
-13	=t	_	PRON	DET	Gender=Fem	12	nsubj	_	Gloss=NDF|RX=[DET]|TokenType=Clit|WordAlignmentBegin=223483|WordAlignmentEnd=223556
+13	=t	_	PRON	DET	Gender=Fem	12	nsubj	_	Gloss=INDF|RX=[DET]|TokenType=Clit|WordAlignmentBegin=223483|WordAlignmentEnd=223556
 14	=oːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2|Poss=Yes	12	obj	_	Gloss=POSS|RX==[PRO]|TokenType=Clit|WordAlignmentBegin=223556|WordAlignmentEnd=223629
 15	=t	_	DET	DET	Gender=Fem	14	det	_	Gloss=INDF|RX==[DET]|TokenType=Clit|WordAlignmentBegin=223629|WordAlignmentEnd=223702
 16	=u	_	AUX	N.COP	Number=Sing|Person=3|VerbType=Cop	12	cop	_	Gloss=COP|RX==[PRED].[N]|TokenType=Clit|WordAlignmentBegin=223702|WordAlignmentEnd=223776

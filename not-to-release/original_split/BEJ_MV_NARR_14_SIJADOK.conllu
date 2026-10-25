@@ -591,12 +591,12 @@
 13	ti=	_	DET	N	Gender=Fem	14	det	_	Gloss=DEF|RX=[N].[F]=|TokenType=Clit|WordAlignmentBegin=129929|WordAlignmentEnd=130106
 14	takat	_	NOUN	REL	Gender=Fem	18	obj	_	Gloss=woman|RX=[N].[F]|TokenType=Root|WordAlignmentBegin=130106|WordAlignmentEnd=130194
 15	ti=	_	SCONJ	V2	Gender=Fem	16	dep:comp	_	Gloss=DEF|RX=[REL]=|TokenType=Clit|WordAlignmentBegin=130194|WordAlignmentEnd=130282
-16	waːwti	_	VERB	TAM.PNG	Gender=Fem|Number=Plur|VerbClass=2	14	acl:relcl	_	Gloss=weep|MGloss=weep-AOR.SSG.F|MSeg=waːw-ti|RelRole=Subj|RX=[V2]-[TAM].[PNG]|TokenType=Root|WordAlignmentBegin=130282|WordAlignmentEnd=130459
+16	waːwti	_	VERB	TAM.PNG	Gender=Fem|Number=Plur|VerbClass=2	14	acl:relcl	_	Gloss=weep|MGloss=weep-AOR.SG.F|MSeg=waːw-ti|RelRole=Subj|RX=[V2]-[TAM].[PNG]|TokenType=Root|WordAlignmentBegin=130282|WordAlignmentEnd=130459
 17	=t	_	SCONJ	V2	Definite=Ind|Gender=Fem|PronType=Rel	16	mark	_	Gloss=INDF|RX==[REL]|TokenType=Clit|WordAlignmentBegin=130459|WordAlignmentEnd=130576
 18	rhi	_	VERB	TAM.PNG	_	24	advcl	_	Gloss=see|MGloss=see-AOR.3SG.M|MSeg=rh-i|RX=[V2]-[TAM].[PNG]|TokenType=Root|WordAlignmentBegin=130576|WordAlignmentEnd=130812
 19	=hoːb	_	SCONJ	PUNCT	_	18	mark	_	Gloss=when|RX==[CONJ]|TokenType=Clit|WordAlignmentBegin=130812|WordAlignmentEnd=131165
 20	/	_	PUNCT	DET	_	18	punct	_	Gloss=PUNCT|RX=[PUNCT]|TokenType=Break|WordAlignmentBegin=131165|WordAlignmentEnd=131340
-21	i=	_	DET	N	Definite=Def|Gender=Masc	22	det	_	Gloss=DEFM|RX=[DET]=|TokenType=Clit|WordAlignmentBegin=131340|WordAlignmentEnd=131516
+21	i=	_	DET	N	Definite=Def|Gender=Masc	22	det	_	Gloss=DEF|RX=[DET]=|TokenType=Clit|WordAlignmentBegin=131340|WordAlignmentEnd=131516
 22	mana	_	NOUN	POSTP	Gender=Masc|Number=Plur	24	nsubj	_	Gloss=bowel|RX=[N].[PL].[M]|TokenType=Root|WordAlignmentBegin=131516|WordAlignmentEnd=131868
 23	dhaːj	_	ADP	PNG	_	24	obl:arg	_	Gloss=DIR|RX=[POSTP]|TokenType=Root|WordAlignmentBegin=131868|WordAlignmentEnd=131985
 24	inʔakʷna	_	VERB	PNG	Aspect=Imp|Number=Plur	0	root	_	Gloss=IPFV|MGloss=3-IPFV-PL|MSeg=i-nʔakʷ-na|RX=[PNG]-[V1]-[PNG]|TokenType=Root|WordAlignmentBegin=131985|WordAlignmentEnd=132572
@@ -1567,30 +1567,4 @@
 30	i=	_	DET	DET	Definite=Def|Gender=Masc	31	det	_	Gloss=DEF|RX=[DET]=|TokenType=Clit|WordAlignmentBegin=328282|WordAlignmentEnd=328444
 31	gaːdi	_	NOUN	N	Gender=Masc	26	dislocated:subj	_	Gloss=judge|RX=[N].[M]|TokenType=Root|WordAlignmentBegin=328444|WordAlignmentEnd=328606
 32	//	_	PUNCT	PUNCT	_	26	punct	_	Gloss=PUNCT|RX=[PUNCT]|TokenType=Break|WordAlignmentBegin=328606|WordAlignmentEnd=328930
-
-# sent_id = BEJ_MV_NARR_14_sijadok_357-357
-# text = dhaːj jʔi =jaːt /
-# sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ_MV_NARR_14_SIJADOK.WAV
-# phonetic_text = dhaːj jʔijaːt /
-# text_en = he went to him,
-1	dhaːj	_	ADP	POSTP	_	2	obl:arg	_	Gloss=DIR|RX=[POSTP]|TokenType=Root|WordAlignmentBegin=306733|WordAlignmentEnd=306935
-2	jʔi	_	VERB	V2	Gender=Masc|Number=Sing|VerbClass=2	0	root	_	Gloss=come|MGloss=come-AOR.3SG.M|MSeg=jʔ-i|RX=[V2].[IRG]-[TAM].[PNG]|TokenType=Root|WordAlignmentBegin=306935|WordAlignmentEnd=307069
-3	=jaːt	_	CCONJ	CONJ	_	2	cc	_	Gloss=COORD|RX==[CONJ]|TokenType=Clit|WordAlignmentBegin=307069|WordAlignmentEnd=307137
-4	/	_	PUNCT	PUNCT	_	2	punct	_	Gloss=PUNCT|RX=[PUNCT]|TokenType=Break|WordAlignmentBegin=307137|WordAlignmentEnd=307339
-
-# sent_id = BEJ_MV_NARR_14_sijadok_358-359
-# text = oːn i= gaːdi oː= kna =ji =da aslimiːni eːn //
-# sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ_MV_NARR_14_SIJADOK.WAV
-# phonetic_text = oːn igaːdi oːknaːjda aslimiːni eːn //
-# text_en = and he becomes a Muslim in front of the judge himself, they said.
-1	oːn	_	DET	DEM	Case=Acc|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	Gloss=PROX|RX=[DEM]|TokenType=Root|WordAlignmentBegin=307339|WordAlignmentEnd=307694
-2	i=	_	DET	DET	Definite=Def|Gender=Masc	3	det	_	Gloss=DEF|RX=[DET]=|TokenType=Clit|WordAlignmentBegin=307694|WordAlignmentEnd=307872
-3	gaːdi	_	NOUN	N	Gender=Masc	5	nmod	_	Gloss=judge|RX=[N].[M]|TokenType=Root|WordAlignmentBegin=307872|WordAlignmentEnd=308050
-4	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	det	_	Gloss=DEF|RX=[DET]=|TokenType=Clit|WordAlignmentBegin=308050|WordAlignmentEnd=308138
-5	kna	_	NOUN	N	Gender=Masc	7	dep	_	Gloss=owner|RX=[N].[M]|TokenType=Root|WordAlignmentBegin=308138|WordAlignmentEnd=308227
-6	=ji	_	ADP	CASE	Case=Gen	5	case	_	Gloss=GEN|RX==[CASE]|TokenType=Clit|WordAlignmentBegin=308227|WordAlignmentEnd=308316
-7	=da	_	ADP	POSTP	_	8	obl:arg	_	Gloss=DIR|RX==[POSTP]|TokenType=Clit|WordAlignmentBegin=308316|WordAlignmentEnd=308405
-8	aslimiːni	_	VERB	V2	Gender=Masc|Number=Sing|VerbClass=2	0	root	_	Gloss=become_Muslim|MGloss=become_Muslim-IPFV.3SG.M|MSeg=aslim-iːni|RX=[V2]-[TAM].[PNG]|TokenType=Root|WordAlignmentBegin=308405|WordAlignmentEnd=308761
-9	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	8	discourse	_	Gloss=say|RX=[V1].[IRG]|TokenType=Root|WordAlignmentBegin=308761|WordAlignmentEnd=309116
-10	//	_	PUNCT	PUNCT	_	8	punct	_	Gloss=PUNCT|RX=[PUNCT]|TokenType=Break|WordAlignmentBegin=309116|WordAlignmentEnd=310432
 

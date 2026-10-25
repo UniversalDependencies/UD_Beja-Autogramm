@@ -1306,17 +1306,3 @@
 7	=oːn	_	PRON	PRO	Case=Acc|Number=Plur|Person=1|Poss=Yes	6	nmod:poss	_	Gloss=POSS|RX==[PRO]|TokenType=Clit|WordAlignmentBegin=267145|WordAlignmentEnd=267338
 8	//	_	PUNCT	PUNCT	_	4	punct	_	Gloss=PUNCT|RX=[PUNCT]|TokenType=Break|WordAlignmentBegin=267338|WordAlignmentEnd=267723
 
-# sent_id = BEJ_MV_NARR_17_shoemaker_252-253
-# text = taː= mʔa han mhaj =t =a =ajt /
-# sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ_MV_NARR_17_SHOEMAKER.WAV
-# phonetic_text = taːmʔa han mhajtaːjt /
-# text_en = 'Since the women are also three.'
-1	taː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	det	_	Gloss=DEF|RX=[DET]=|TokenType=Clit|WordAlignmentBegin=223214|WordAlignmentEnd=223372
-2	mʔa	_	NOUN	N	Gender=Fem|Number=Plur	4	nsubj	_	Gloss=woman|RX=[SBJ].[N].[F]|TokenType=Root|WordAlignmentBegin=223372|WordAlignmentEnd=223530
-3	han	_	PART	PTCL	_	2	advmod	_	Gloss=also|RX=[PTCL].[FOC]|TokenType=Root|WordAlignmentBegin=223530|WordAlignmentEnd=223846
-4	mhaj	_	NUM	NUM	_	0	root	_	Gloss=three|RX=[NUM]|TokenType=Root|WordAlignmentBegin=223846|WordAlignmentEnd=223925
-5	=t	_	DET	DET	Gender=Fem	4	det	_	Gloss=INDF|RX==[DET]|TokenType=Clit|WordAlignmentBegin=223925|WordAlignmentEnd=224004
-6	=a	_	AUX	N.COP	Number=Plur|Person=3|VerbType=Cop	4	cop	_	Gloss=COP|RX==[PRED].[N]|TokenType=Clit|WordAlignmentBegin=224004|WordAlignmentEnd=224083
-7	=ajt	_	SCONJ	CONJ	_	4	dep	_	Gloss=CSL|RX==[CONJ]|TokenType=Clit|WordAlignmentBegin=224083|WordAlignmentEnd=224162
-8	/	_	PUNCT	PUNCT	_	4	punct	_	Gloss=PUNCT|RX=[PUNCT]|TokenType=Break|WordAlignmentBegin=224162|WordAlignmentEnd=225019
-
